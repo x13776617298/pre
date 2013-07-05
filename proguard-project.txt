@@ -1,0 +1,86 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-ignorewarnings
+
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+# webview
+
+-keep class com.babytree.apps.biz.topicdetails.TopicActivity$JavaScriptInterface{
+	 public *;
+}
+-keep class com.babytree.apps.biz.knowledge.InformationDetailActivity$JavaScriptInterface{
+	 public *;
+}
+-keep class com.babytree.apps.biz.knowledge.KitchenDetailActivity$JavaScriptInterface{
+	 public *;
+}
+-keep class com.babytree.apps.biz.knowledge.RemindDetailActivity$JavaScriptInterface{
+	 public *;
+}
+-keep class com.babytree.apps.biz.knowledge.Y_KitchenDetailActivity$JavaScriptInterface{
+	 public *;
+}
+-keep class com.babytree.apps.biz.knowledge.Y_KnowledgeDetailActivity$JavaScriptInterface{
+	 public *;
+}
+-keep class com.babytree.apps.biz.knowledge.Y_RemindDetailActivity$JavaScriptInterface{
+	 public *;
+}
+-keep class com.babytree.apps.comm.ui.activity.BabyTreeWebviewActivity$JavaScriptInterface{
+	 public *;
+}
+
+-keep public class com.babytree.apps.pregnancy.R$*{ public static final int *;}
+
+# 友盟相关
+
+-keep public class com.umeng.fb.ui.ThreadView {}
+
+-keepclassmembers class com.umeng.*.** {*;}
+
+-keepclasseswithmembers class com.umeng.*.** {*;}
+
+# 腾讯相关
+-keepclassmembers class com.tencent.tauth.*.** {*;}
+
+-keepclasseswithmembers class com.tencent.tauth.*.** {*;}
+
+# httpmime
+-keepclassmembers class org.apache.http.entity.mime.*.** {*;}
+
+-keepclasseswithmembers class org.apache.http.entity.mime.*.** {*;}
+
+# 百度map
+-keep class com.baidu.mapapi.** {*;}
+# 百度定位
+-keep class com.baidu.location.** {*;}
+# 讯飞语音
+-keep class com.iflytek.**{*;}
+# supportv4jar
+-keep class android.support.v4.** { *; }
+-keep public class * extends android.support.v4.**
+-keep public class * extends android.app.Fragment
+
+

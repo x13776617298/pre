@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>虾仁鸡蛋羹</h1>
+        <br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 虾仁若干，鸡蛋1个。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、将虾仁蒸熟、剁碎；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、把鸡蛋打在碗里； &nbsp; &nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 3、加入少量温开水、食盐，并与虾仁拌匀；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 4、放入锅中蒸熟，便可食用。</div>
+&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_111">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 111;" onclick="nativeNewBirthclubByWeek('16');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('16');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('567.html');return false;">上一篇：黄瓜海蜇丝</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('890.html');return false;">下一篇：菠菜猪肺汤</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("虾仁鸡蛋羹 虾含钙丰富，具有补肾益气、健身壮力的作用，孕妇常食可补充钙的需求。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

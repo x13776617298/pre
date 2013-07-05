@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>扇贝蛋羹</h1>
+        <br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 小油菜50克、鸡蛋1个、核桃仁10克、鲜扇贝肉1粒、芝麻油微量</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、小油菜洗净入沸水焯一下，捞出放入榨汁机中榨汁，取油菜汁备用。扇贝肉洗净切小粒，入沸水中煮熟、煮透，核桃仁碾碎；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、鸡蛋打散加入共约2倍的清水和菜汁搅匀，撤上核桃碎、扇贝肉；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 3、将蛋璧放入沸水锅中隔水蒸15分钟，淋几滴芝麻油即可。</div>
+&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_230">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 230;" onclick="nativeNewBirthclubByWeek('33');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('33');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('584.html');return false;">上一篇：冬瓜鲤鱼汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('986.html');return false;">下一篇：青菜肉丝面</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("扇贝蛋羹 鸡蛋滑嫩，扇贝鲜香，将扇贝的精华融入到滑嫩的蛋羹之中，两者的味道融为一体。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

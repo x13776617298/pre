@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>鸡米花</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>鸡胸肉，鸡蛋，淀粉，面包糠，胡椒粉；</div>
+<div>制作方法：&nbsp;</div>
+<div>1.鸡胸肉切成均匀的鸡肉丁。</div>
+<div>2.切好的鸡肉丁，加盐、胡椒粉、蛋清腌15分钟左右。</div>
+<div>3.准备三个碗，分别装上淀粉、打散的全蛋液、面包糠。</div>
+<div>4.将腌好的鸡丁依次沾一层淀粉，一层蛋液，再均匀地裹上面包糠。</div>
+<div>5.取油锅，油温约六成热时，下入准备好的生坯，半分钟后轻轻晃动锅，炸至鸡丁表面金黄，捞出沥干油即可。</div>
+<div>&nbsp;</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_280">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 280;" onclick="nativeNewBirthclubByWeek('40');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('40');return false;">查看孕10月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1018.html');return false;">上一篇：香菇蛋羹</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("鸡米花 这道鸡米花既美味又营养，还可以做小零食。老少皆宜，包括你未来宝宝也会喜欢吃哦！");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

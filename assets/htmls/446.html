@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>产前产检</h1>
+        满36周后每周做一次产前检查，但各个不同地区和医院的规定可能会有一些差别。检查的主要内容为：询问前次产前检查后，有无异常情况出现，检查有无水肿、贫血等情况，测量体重、血压、宫高、腹围，复查胎方位，听胎心，必要时进行B超检查了解胎儿在宫内情况，复查尿常规及血常规。有高危因素者需要增加检查次数。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_3_248">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 248;" onclick="nativeNewBirthclubByWeek('36');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('36');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('447.html');return false;">上一篇：剪头发</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('450.html');return false;">下一篇：避免性生活</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("产前产检 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

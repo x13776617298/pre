@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffe2e2e2"
+    android:orientation="vertical" >
+
+    <!-- 加载失败-重新加载操作页面 -->
+    <!-- <include
+        android:id="@+id/reloading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/pull_refresh_first_reloading"
+        android:visibility="gone" /> -->
+
+    <include
+        android:id="@+id/pregnancy_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="164dp"
+        layout="@layout/pregnancy_tip_view" />
+
+
+</LinearLayout>

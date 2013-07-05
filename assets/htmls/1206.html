@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>补充叶酸</h1>
+        <p><font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 叶酸是B族维生素的一种，曾被叫做维生素M、维生素BC，由于它最初由菠菜叶中分离出来，所以现在习惯把它称为叶酸。叶酸补充的最佳时间应该从你准备怀孕前3个月至整个孕早期。</font></p>
+<p><font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 根据研究指出在怀孕前开始每天服用O.4mg的叶酸，可降低70%的新生儿神经管缺陷(NTDs)发生机率，因此叶酸已被证实与胎儿的神经管畸形有着密切的关系。</font></p>
+<p><font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果你是计划怀孕的孕妈妈，相信在怀孕成功的前三个月，你已经开始补充叶酸了，这真是非常好，因为这是叶酸补充的最佳时间。如果你是刚刚才知道怀孕的孕妈妈，也不用担心，从现在起一直到孕3个月，每天坚持服用定量的叶酸也是可以的。</font></p>    </article>
+    <dl class="other link">
+                        <dt id="_2_3_17">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 17;" onclick="nativeNewBirthclubByWeek('3');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('3');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1205.html');return false;">上一篇：怀孕自测</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1207.html');return false;">下一篇：知晓第一次产检时间</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("补充叶酸 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

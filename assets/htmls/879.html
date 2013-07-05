@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>栗子粥</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>糯米或大米100克，栗子10个（大约150克左右），糖桂花或者白糖适量。</div>
+<div>制作方法：&nbsp;</div>
+<div>　　1、做法非常简单，栗子洗净，放入开水锅中煮熟，然后捞出去皮，再用搅拌机打磨成粉状。</div>
+<div>　　2、糯米或是大米淘洗干净，如果用的是糯米的话，要放入清水里泡至米粒充分吸水膨胀，再与适量清水一起放入锅中，大火煮开后转小火煮约30分钟。</div>
+<div>　　3、30分钟后加入栗子粉，继续煮约20分钟至米烂粥稠，最后撒上糖桂花或是白糖调味即可。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_123">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 123;" onclick="nativeNewBirthclubByWeek('18');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('18');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('949.html');return false;">上一篇：手撕包菜</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('569.html');return false;">下一篇：鱼头木耳汤</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("栗子粥 栗子粥食谱功效有补虚养肾、调理脾胃功效。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

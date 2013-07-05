@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>警惕“早产”</h1>
+        进入孕晚期后，各位准妈妈应当时刻谨防早产征兆，早产感觉和平日相似，孕妇很难判断早产宫缩，如有两种或超过两种下列早产症状，就要立即去医院了。<br />
+<br />
+（1）异常宫缩，频繁规律官缩(每小时超过5次，持续两小时或以上)。<br />
+<br />
+（2）下腹部痉挛性疼痛。<br />
+<br />
+（3）背下方隐痛。<br />
+<br />
+（4）下腹部和大腿压力增大(盆腔沉重)。<br />
+<br />
+（5）肠运动比平常和腹泻时加速。<br />
+<br />
+（6）阴道分泌物增加或异常(特别是分泌物呈水状、黏液状，或伴有淡淡的血色)。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_207">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 207;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('390.html');return false;">上一篇：监测胎动</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('393.html');return false;">下一篇：多喝一些牛奶</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("警惕“早产” ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_slidemenu_bj"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp" >
+
+    <TextView
+        android:id="@+id/home_list_title"
+        style="@style/home_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="middle" 
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="false"
+        android:text="@string/s_home_notify_title_type1"
+        android:textColor="#b4b4b4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/home_list_time"
+        style="@style/home_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_list_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="2小时前"
+        android:textColor="#9b9b9b"
+        android:textSize="13sp" />
+
+</RelativeLayout>

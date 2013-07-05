@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>莲子糯米粥</h1>
+        <br />
+<br />
+食谱原料：<br />
+莲子50克,糯米100克,白糖适量。<br />
+制作方法：<br />
+1、将莲子用温水浸泡，去心后，清水洗净。<br />
+2、把糯米淘洗干净，用清水浸泡1-2小时。<br />
+3、将煮锅洗净，放入莲子、糯米、清水适量，置于火上，煮成粥，加入白糖调味，即可食用。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_191">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 191;" onclick="nativeNewBirthclubByWeek('28');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('28');return false;">查看孕7月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('909.html');return false;">上一篇：素烧三元</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1010.html');return false;">下一篇：咖喱鸡块饭</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("莲子糯米粥 这道粥补中气，清心养神，健脾和胃，适用于治疗孕妇腰部酸痛，常食可以养胎。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

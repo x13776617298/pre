@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>了解分娩过程</h1>
+        现在，你需要对分娩过程有一个清楚地了解，做到心中有数。<br />
+<br />
+第一步：宫缩。在这个阶段，宫颈口会打开到10厘米。刚开始的时候，宫缩并不强烈，但随着胎儿下降到产道中，宫颈打开5～8厘米的时候，宫缩就会变得越来越强烈而且间歇时间缩短。在宫缩早期或活跃期，羊水会破裂，而且可能会有出血的现象。宫颈口开到8～10厘米的时候，胎儿随时都会娩出。这时宫缩最为强烈，大约每2分钟一次，最后宫缩会达到每1分钟左右一次。<br />
+<br />
+第二步：胎儿娩出。当宫颈口开到10厘米左右的时候，你和肚里的宝宝就都为分娩做好了准备。为了能尽快娩出胎儿，最有效的方法是利用重力。有可能的话，最好在准爸爸或是助产士的帮助下采用半蹲的姿势进行分娩。<br />
+<br />
+第三步：取出胎盘。孩子娩出后，整个生产过程还没有结束。在这个阶段，子宫会持续宫缩直至娩出胎盘，但这个过程已经远不如前两个阶段那么疼痛了。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_263">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 263;" onclick="nativeNewBirthclubByWeek('38');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('38');return false;">查看孕10月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('459.html');return false;">上一篇：增加分娩信心</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('462.html');return false;">下一篇：坚持每日散步</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("了解分娩过程 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

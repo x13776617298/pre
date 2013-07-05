@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>鲜肉蛋饺</h1>
+        <br />
+食谱原料：
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 鸡蛋1个，鲜肉末1大匙，青菜末1大匙，盐、植物油少许。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、将平底锅内放少许植物油，油热后，把鲜肉末和青菜末放入锅内炒，并放入少许盐，炒熟后倒出；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、将鸡蛋调匀，平底锅内放少许油，将鸡蛋倒入摊成圆片状，待鸡蛋半熟时，将炒好的鲜肉和青菜倒在鸡蛋片的一侧，将另一侧折叠重合，即成蛋饺。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_97">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 97;" onclick="nativeNewBirthclubByWeek('14');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('14');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('565.html');return false;">上一篇：骨汤烩酿豆腐</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('880.html');return false;">下一篇：蛋皮鱼卷</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("鲜肉蛋饺 软嫩的蛋皮，包裹上新鲜的肉泥馅，一定会让准妈妈们食欲大增。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

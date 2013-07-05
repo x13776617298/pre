@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>监测胎动</h1>
+        目前国内外均采用12小时胎动计数，即早、中、晚固定时间各测1小时胎动数，3次相加总数乘以4，即为12小时胎动数。一般要求12小时胎动在20次以上为正常。胎动的强弱与频率，因个体的不同而有很大的差异。若12小时内，胎动少于20次，或1小时内胎动小于3次，就表示胎儿可能有缺氧的情形，孕妇最好到医院做详细检查。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_3_206">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 206;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('388.html');return false;">上一篇：孕晚期产检</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('395.html');return false;">下一篇：警惕“早产”</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("监测胎动 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

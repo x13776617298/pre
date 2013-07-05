@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>有节制地看电视</h1>
+        很多人都知道孕妇尽量不要看电视,因为对宝宝有危害,但是孕妇看电视的危害到底有哪些呢?有些妇女因为怀孕后的各种活动减少，使用更多的时间看电视，以消磨时间。其实孕妇的这种做法对胎儿的危害是很大的。<br />
+<br />
+电视机在工作时，显像管不断发出肉眼看不见的X射线，这些射线有一部分射到外边，对胎儿影响是不容忽视的，它往往容易使孕妇流产或早产，还可能使胎儿畸形，特别是对1～3个月的胎儿，危害更大。如果有时要看电视，距荧光屏的距离要在2米以上为好。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_95">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 95;" onclick="nativeNewBirthclubByWeek('14');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('14');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('401.html');return false;">上一篇：坚持补钙</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('406.html');return false;">下一篇：做孕中期的生活计划</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("有节制地看电视 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

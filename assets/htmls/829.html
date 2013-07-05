@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>西芹牛柳</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>牛肉250克、西芹50克、胡萝卜20克、鸡蛋I个(取蛋清)。葱段、料酒、盐、干淀粉、水淀粉、植物油、高汤、白糖各适量&nbsp;</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、蛋清打散；牛肉洗净，切薄片，用鸡蛋清、盐、干淀粉拌匀；西芹洗净，切片;胡萝卜去皮，洗净，切成薄片；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、油锅烧热，放入牛肉片、西芹片、胡萝卜片，翻炒片刻捞出；锅留余油，爆香葱段，加高汤、料酒，牛肉片，西芹片、胡萝卜片炒熟，加盐、白糖调味，用水淀粉勾芡即可。</div>
+<div>&nbsp;</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_42">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 42;" onclick="nativeNewBirthclubByWeek('6');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('6');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('840.html');return false;">上一篇：叉烧炒蛋</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('818.html');return false;">下一篇：蜜烧红薯</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("西芹牛柳 牛肉富含蛋白质，氨基酸组成接近人体需要，可增强母体与胎儿的免疫能力，是补益佳品。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

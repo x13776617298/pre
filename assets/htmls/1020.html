@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>花生蹄花汤</h1>
+        <br />
+<br />
+食谱原料：<br />
+猪蹄500克,花生米200克,老姜30克,精盐、葱、胡椒粉各适量。<br />
+制作方法：<br />
+1、将猪蹄去毛，用清水略为浸泡并刮洗干净。<br />
+2、将净猪蹄对剖后剁成小块。<br />
+3、花生米在温水中浸泡去皮。葱切花、姜拍松。油菜择洗干净。<br />
+4、锅置旺火上，加入适量清水，放入猪蹄，煮沸后撇去浮沫，放入花生米和老姜块；猪蹄半熟时，改用小火，加入精盐、油菜继续煨炖，待猪蹄熟烂入味后，起锅盛入汤碗，撒上胡椒粉、葱花即可。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_205">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 205;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('915.html');return false;">上一篇：炒马鞍鳝</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1015.html');return false;">下一篇：香蕉奶茶蛋糕</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("花生蹄花汤 此菜是高能食物，蛋白质和脂肪含量高，能补脾益气、补肾健体、滋胃养颜。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>橘味海带丝</h1>
+        <br />
+<br />
+食谱原料：<br />
+干海带150克,白菜150克,干橘皮50克,白糖、味精、醋、酱油、香油、香菜段各适量。<br />
+制作方法：<br />
+1、干海带放锅内蒸25分钟左右，捞出，放热水中浸泡30分钟，捞出，切成细丝。<br />
+2、把白菜洗净，切成细丝。<br />
+3、将干橘皮浸软洗净，切成丝末。<br />
+4、将海带丝、白菜丝和橘皮末放入大碗内，加酱油、醋、白糖、味精和香油，撒上香菜段，拌匀即可。    </article>
+    <dl class="other link">
+                        <dt id="_1_5_99">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 99;" onclick="nativeNewBirthclubByWeek('15');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('15');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('880.html');return false;">上一篇：蛋皮鱼卷</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1041.html');return false;">下一篇：鸡脯扒小白菜</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("橘味海带丝 橘味海带丝清凉可口，含有丰富的营养素，尤其碘的含量十分丰富。适合孕妇补碘。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

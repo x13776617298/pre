@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>火腿咸蛋粥</h1>
+        <br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 咸蛋黄4个，瘦火腿若干，泰国香米一碗，高汤一碗。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1.熟咸蛋黄四个，用汤勺背碾碎，瘦火腿肉切成细丝。</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2.将米淘洗干净，倒入砂锅中，加入高汤，半锅水，下入火腿丝，搅匀；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 3.大火烧开后，下入咸蛋黄搅散，然后改小火，用两根筷子架住锅盖，熬煮15-20分钟，每间隔5分钟开一次盖，用勺子铲动一下，避免糊底；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 4.煮至粥变得均匀浓稠，加入适量鸡精、白胡椒粉调味，即可关火，最后撒上葱花即可。</div>
+&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_125">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 125;" onclick="nativeNewBirthclubByWeek('18');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('18');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('569.html');return false;">上一篇：鱼头木耳汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('902.html');return false;">下一篇：麻辣牡蛎豆腐羹</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("火腿咸蛋粥 火腿健脾开胃，补气养血，本粥品清淡不乏滋味，简单易做，适合孕期食用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

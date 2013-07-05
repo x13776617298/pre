@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <RelativeLayout
+        android:layout_width="50dip"
+        android:layout_height="50dip" >
+
+        <ImageView
+            android:id="@+id/notice_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_notice1"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/notice_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_redpoint"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notice_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论回复"
+            android:textColor="#505050"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/notice_textview3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="asdasdsssssssssssssssssssssssssssss"
+            android:textColor="#787878"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

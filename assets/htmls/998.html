@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>香蕉发糕</h1>
+        <br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 香蕉四个，牛奶一袋，面粉一斤，干酵母半袋，泡打粉少许，白糖少许。</div>
+<div>制作方法：&nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、香蕉碾碎，加入面粉、干酵母、泡打粉、白糖适量，牛奶搅拌均匀。放置20分钟；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、锅内放水，开后放入发好的面，隔水蒸30分钟，起锅放置几分钟，切开即可。</div>
+&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_237">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 237;" onclick="nativeNewBirthclubByWeek('34');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('34');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('585.html');return false;">上一篇：玉米淮山猪排汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('989.html');return false;">下一篇：鲜菇芦笋小炒</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("香蕉发糕 香蕉的营养很丰富，含钾量很高。鸡蛋富含蛋白质，添加了鸡蛋的香蕉发糕营养更丰富。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

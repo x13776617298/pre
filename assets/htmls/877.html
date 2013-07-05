@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>豆焖鸡翅</h1>
+        <br />
+<br />
+食谱原料：<br />
+黄豆50克,水发海带50克,胡萝卜条50克,鸡翅4只。<br />
+制作方法：<br />
+1.黄豆、海带加葱姜等调料煮熟，鸡翅用花椒水、姜汁、盐、葱等腌制入味；<br />
+2.炒锅加油烧至8成热，下鸡翅，翻炒至变色，加其他原料及适量汤，转小火，一同焖至汁浓即可。    </article>
+    <dl class="other link">
+                        <dt id="_1_5_134">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 134;" onclick="nativeNewBirthclubByWeek('20');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('20');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('908.html');return false;">上一篇：骨头汤炖莴笋</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('984.html');return false;">下一篇：养血安胎汤</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("豆焖鸡翅 黄豆、海带能大大增加以各种肉类为主料的菜肴的含钙量，可使身体得到丰富的钙质。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,16 @@
+
+    <resources>
+        <string name="invite_title">邀请得好礼</string>
+        <string name="invite_str0">每邀请一位好友可进行一次抽奖,目前邀请了0位好友</string>
+        <string name="invite_str1">剩余抽奖次数:0</string>
+        <string name="invite_str2">不可抽奖</string>
+        <string name="invite_str3">点击抽奖</string>
+        <string name="invite_str4">奖品和规则</string>
+        <string name="invite_str5">通讯录</string>
+        <string name="invite_str6">新浪微博</string>
+        <string name="invite_str7">腾讯微博</string>
+    	<string name="invite_str8">可能帮你增加孕气的人</string>
+    	<string name="invite_str9">恭喜你砸中了米卡早教包!</string>
+    	<string name="invite_str10">提交信息</string>
+    	<string name="invite_str11">点击抽奖</string>
+    </resources>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>华彩鱼肉</h1>
+        <br />
+<br />
+食谱原料：<br />
+鱼肉250克,青椒,红椒各20克,水发冬菇30克，葱丝20克,姜丝10克,绍酒、盐、胡椒粉、鸡蛋清、淀粉等少许。<br />
+制作方法：<br />
+1.将鱼肉切丝，凉水洗漂后沥水，加入盐、鸡蛋清、淀粉上好浆，把剩下的盐和绍酒、味精、胡椒粉、淀粉放在小碗里加少许水兑成汁；<br />
+2.再将青椒、红椒、黄椒洗净分别切成丝，水发冬菇切成丝后用开水汆透；<br />
+3.将炒锅烧热，加入植物油烧至五六成热，放入鱼丝划散，随即放入椒丝片刻，倒入漏勺中；<br />
+4.炒锅内留10克底油，放入葱丝、姜丝、冬菇丝，炒出香味后烹入兑好的汁，放入鱼丝，翻面使芡汁均匀即可。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_240">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 240;" onclick="nativeNewBirthclubByWeek('35');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('35');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('934.html');return false;">上一篇：黄焖鸭肝</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1029.html');return false;">下一篇：豆角烧茄子</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("华彩鱼肉 嫩滑的鱼丝含有丰富的钙质，滑炒后还含有适量的脂肪，能为孕妇补钙添活力。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

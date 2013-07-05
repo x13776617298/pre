@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_home_background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/baby_title_view_framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bg"
+        android:padding="5dip">
+
+        <Button
+            android:id="@+id/baby_title_view_button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:background="@drawable/btn_back"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/baby_title_view_linearlayout_top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/baby_title_view_text"
+            style="@style/title_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/baby_title_view_button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:background="@drawable/btn_main_change"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/baby_title_view_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/baby_title_view_framelayout"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+    </RelativeLayout>
+
+</RelativeLayout>

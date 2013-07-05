@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>鸡肉拌南瓜</h1>
+        <br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;鸡脯肉20克，南瓜15克。盐、酸乳酪、番茄酱各适量。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、鸡脯肉洗净，放入加盐的沸水中煮熟。捞出撕成细丝；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、南瓜洗净去皮、子，切丁，入沸水锅中隔水蒸熟取出；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 3、把鸡丝和南瓜丁放入碗中，加入酸乳酪，番茄酱拌匀即可。</div>
+&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_160">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 160;" onclick="nativeNewBirthclubByWeek('23');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('23');return false;">查看孕6月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('574.html');return false;">上一篇：葱油鲤鱼</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('928.html');return false;">下一篇：双色豆腐</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("鸡肉拌南瓜 南瓜富含B族维生素、类胡萝卜素等；鸡胸肉纤维较粗，两者结合营养美味。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

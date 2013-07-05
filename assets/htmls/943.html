@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>腊味煲仔饭</h1>
+        <br />
+食谱原料：
+<div>大米 2碗、香肠 （广式） 4根、鸡蛋 2个、油菜心、植物油、蒜、葱、酱油、白糖、蚝油适量。</div>
+<div>制作方法：</div>
+<div>1、香肠清洗干净，大火蒸15分钟。</div>
+<div>2、蒸好的香肠切片备用。</div>
+<div>3、大米淘洗干净，加水浸泡至少半小时。</div>
+<div>4、泡好的大米加入约1.5倍的水，煮至8分熟。</div>
+<div>5、淋入少许油，搅拌均匀。</div>
+<div>6、摆上切好的香肠，打入两颗鸡蛋，盖上盖子，继续小火煮10分钟左右，关火后继续盖着盖子焖15分钟左右。</div>
+<div>7、青菜用热水焯烫一下，沥干水分后放在焖好的煲仔饭上。</div>
+<div>8、酱汁：小锅中加入少许油，加入葱末、蒜片炒香。</div>
+<div>9、加入 酱油、耗油和糖搅拌均匀，淋在做好的煲仔饭上即可。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_115">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 115;" onclick="nativeNewBirthclubByWeek('17');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('17');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('973.html');return false;">上一篇：什锦沙拉</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('875.html');return false;">下一篇：奶油玉米笋</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("腊味煲仔饭 本款饭食可以调节孕妇胃口，增强食欲，利于胎宝宝成长发育。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

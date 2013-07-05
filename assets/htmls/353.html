@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>考虑是否请月嫂</h1>
+        现在是考虑宝宝出生后，由谁来照顾他的问题了。如果家中的老人没有精力照顾你和宝宝的话，要早点拜访家政中心，咨询有关月嫂和保姆的问题了，月嫂的时间档期通常都是提前两三个月甚至半年预定的，所以打算由月嫂照顾自己和宝宝的，现在就必须下手了。更好的办法是请你周围刚生过孩子的朋友推荐熟悉的家政工作人员。了解如何识别好月嫂。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_3_178">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 178;" onclick="nativeNewBirthclubByWeek('26');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('26');return false;">查看孕7月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('352.html');return false;">上一篇：和准爸爸探讨未来分工</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('355.html');return false;">下一篇：预定月嫂</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("考虑是否请月嫂 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

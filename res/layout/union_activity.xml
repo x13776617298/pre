@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_union"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="宝宝树推荐"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/checkbox_union"
+            android:button="@null"
+            android:gravity="center"
+            android:text="热门应用"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/father1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:visibility="visible" >
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/driver"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@drawable/list_selector_background" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/father2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/driver"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@drawable/list_selector_background" />
+    </RelativeLayout>
+
+</LinearLayout>

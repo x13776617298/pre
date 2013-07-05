@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>猪肝拌菠菜</h1>
+        <br />
+<br />
+食谱原料：<br />
+猪肝100克,菠菜200克,海米5克,香菜1棵,精盐、味精、酱油、食醋、蒜泥、香油各适量。<br />
+制作方法：<br />
+1、将猪肝洗净，切成薄片，入沸水中煮透。<br />
+2、海米用温水浸泡好，香菜洗净，切成2厘米长的段。<br />
+3、菠菜择好洗净，切成3厘米长的段，放入沸水中氽一下捞出，再放入凉水中冲凉，控净水。<br />
+4、将菠菜放入大碗内，上面放上猪肝片、香菜段、海米，再将精盐、味精、酱油、食醋、蒜泥、香油放在一个碗内，兑成调味汁，浇在菜上拌匀即成。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_198">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 198;" onclick="nativeNewBirthclubByWeek('29');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('29');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('913.html');return false;">上一篇：红枣黑豆炖鲤鱼</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1013.html');return false;">下一篇：干锅花菜</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("猪肝拌菠菜 此菜清淡鲜香，猪肝和菠菜均含有多种营养成分，是孕产妇的可口菜肴。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

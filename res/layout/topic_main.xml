@@ -1,0 +1,101 @@
+<com.babytree.apps.biz.topic.view.KeyboardListenRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyboardRelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_add_comment2"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
+        ptr:ptrHeaderTextColor="@android:color/black"
+        ptr:ptrHeaderSubTextColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_add_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/topic_add_comment"
+        android:gravity="bottom"
+        android:padding="5dip"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/topic_add_comment_edittext"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_add_comment"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/listblack"
+                android:hint=""
+                android:gravity="top"
+                android:minLines="3"
+                android:maxLines="3"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/btn_take_photo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/btn_addpic_new"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_send_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_topic_enter"
+            android:text="发送"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_add_comment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/topic_add_comment"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/et_add_comment2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/topic_add_comment_edittext"
+            android:hint="回复楼主..."
+            android:maxLines="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#797979"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</com.babytree.apps.biz.topic.view.KeyboardListenRelativeLayout>

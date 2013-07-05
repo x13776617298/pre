@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>营养蔬菜汤</h1>
+        &nbsp;<br />
+<br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 胡萝卜80克番茄1小个，小黄瓜1根，洋葱小半个，生莱50克，土豆50克，香菇3朵，火腿末30克，高汤500毫升，盐、面包粉(起司粉)、湿生粉各少许，植物油适量。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、所有蔬菜都处理干净；胡萝卜、土豆去皮切成小丁；番茄、小黄瓜、香菇切成小丁；洋葱切成碎粒；生菜洗净切段。</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、炒锅下油烧热，下洋葱炒香，加入土豆、小黄瓜、胡萝卜、番茄续炒片刻，放香菇、生菜和高汤煮至熟软，下盐调味，撒上火腿末、面包粉，用湿生粉勾芡即可。</div>
+<div>&nbsp;</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_35">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 35;" onclick="nativeNewBirthclubByWeek('5');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('5');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('835.html');return false;">上一篇：肉香紫菜蛋卷</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('808.html');return false;">下一篇：山药蔬菜饼</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("营养蔬菜汤 本汤原料简单方便易做，口感清爽，准妈妈们在孕期可以时常饮用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/topic_content_bg_color"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/topic_user_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_topic_reply"
+        android:text="回复"
+        android:textColor="@color/white"
+        android:textSize="@dimen/topic_location_text_size" />
+
+    <TextView
+        android:id="@+id/topic_user_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/topic_user_reply"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@+id/topic_user_reply"
+        android:paddingRight="5dip"
+        android:text="2013-04-17 11:54"
+        android:textColor="@color/topic_location_color"
+        android:textSize="@dimen/topic_location_text_size" />
+
+    <TextView
+        android:id="@+id/topic_user_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/topic_user_reply"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/topic_user_time"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dip"
+        android:text="廊坊"
+        android:textColor="@color/topic_location_color"
+        android:textSize="@dimen/topic_location_text_size" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_below="@id/topic_user_reply"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/topic_driver" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<com.babytree.apps.comm.view.EmojiTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topic_text_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:lineSpacingExtra="2dip"
+    android:lineSpacingMultiplier="1"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:background="@color/topic_content_bg_color"
+    android:textColor="@color/topic_content_color"
+    android:textSize="@dimen/topic_content_text_size" />

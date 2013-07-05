@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>芝香南瓜饼</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>南瓜、糯米粉、白芝麻、豆沙、色拉油。</div>
+<div>制作方法：</div>
+<div>1、南瓜洗净去皮瓤切小块，上锅蒸至软烂后趁热捣成泥。</div>
+<div>2、将糯米粉加入南瓜泥内，用筷子搅拌成雪花状后，揉成光滑面团。</div>
+<div>3、将面团分成大小相等的剂子，每个剂子都搓成球体后按压成饼状。</div>
+<div>4、包入豆沙馅，再按成饼状，放入白芝麻中两面粘满白芝麻。</div>
+<div>5、平底锅均匀刷一层薄薄的油，将南瓜饼放锅里两面煎熟即可。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_31">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 31;" onclick="nativeNewBirthclubByWeek('5');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('5');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('822.html');return false;">上一篇：刺嫩芽烧鲫鱼</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('814.html');return false;">下一篇：龙身凤尾虾</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("芝香南瓜饼 南瓜能润肺益气，化痰排脓，驱虫解毒，治咳止喘，疗肺痈便秘，并有利尿、美容等作用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

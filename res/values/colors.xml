@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="listblack">#000000ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="blue">#0764cb</color>
+    <color name="small_blue">#67c9fb</color>
+    <color name="gray">#888888</color>
+    <color name="light_gray">#DCDCDC</color>
+    <color name="tab_gray">#333333</color>
+    <color name="pink">#FFFEE1D9</color>
+    <color name="light_pink">#ffa28e</color>
+    <color name="deep_pink">#7e7e7e</color>
+    <color name="light_blue">#C4E2E7</color>
+    <color name="red">#ff0000</color>
+    <color name="transpranet">#00000000</color>
+    <color name="background">#FDF8EA</color>
+    <color name="grey">#585858</color>
+    <color name="background_pressed">#FF9999</color>
+    <color name="main_dark">#494949</color>
+    <color name="main_light">#898989</color>
+    <color name="in_out_box">#00000000</color>
+    <color name="reg_color">#555555</color>
+    <color name="sky_blue">#67c9fb</color>
+    <color name="main_week_color">#ff8976</color>
+    <color name="pink1">#ff8976</color>
+    <color name="button_color">#646464</color>
+    <color name="text_color">#8f6969</color>
+    <color name="text_color1">#696969</color>
+    <color name="green">#266a01</color>
+    <color name="light_green">#d4f5c1</color>
+    <color name="text_color2">#525252</color>
+    <color name="text_color3">#6b6b6b</color>
+    <color name="text_color4">#f62b43</color>
+    <color name="hint_color">#c8c8c8</color>
+    <color name="no_hint_color">#858585</color>
+    <color name="light_dark">#4a3007</color>
+    <color name="text_color5">#b16527</color>
+    <color name="text_color6">#5b5b5b</color>
+    <color name="invite_info">#898989</color>
+    <color name="invite_code">#ef6484</color>
+    <color name="invite_title">#ff7488</color>
+
+    <!-- 帖子页颜色Begin -->
+    <color name="topic_user_name_color">#5ab1b1</color>
+    <color name="topic_title_color">#444444</color>
+    <color name="topic_location_color">#8c8c8c</color>
+    <color name="topic_view_color">#8c8c8c</color>
+    <color name="topic_level_color">#8c8c8c</color>
+    <color name="topic_time_color">#8c8c8c</color>
+    <color name="topic_response_color">#8c8c8c</color>
+    <color name="topic_group_color">#fe91a0</color>
+    <color name="topic_floor_color">#5a5a5a</color>
+    <color name="topic_content_color">#5a5a5a</color>
+    <color name="topic_content_floor_color">#8c8c8c</color>
+    <color name="topic_content_bg_color">#f2f2f2</color>
+    <color name="topic_driver_color">#bcbcbc</color>
+    <color name="topic_title_bg_color">#FAFAFA</color>
+    <!-- 帖子页颜色End -->
+
+    <!-- 左右侧背景颜色 -->
+    <color name="c_left">#15a5db</color>
+    <color name="c_right">#ff7488</color>
+
+    <drawable name="trans">#00000000</drawable>
+
+    <color name="menu_text_color">#ffc2c2c2</color>
+    <color name="menu_text_shadow_color">#ff191919</color>
+
+    <!-- 新版首页颜色资源 -->
+    <!-- 邀请准爸爸 -->
+    <color name="c_home_invite_father">#ff95a4</color>
+    <!-- 邀请准爸爸 -->
+    <color name="c_home_switch_2_yuer">#a4d25c</color>
+    <!-- 每日知识 -->
+    <color name="c_home_item_knowledge">#ff8f95</color>
+    <!-- 关爱提醒 -->
+    <color name="c_home_item_tip">#5dc7ef</color>
+    <!-- 孕期食谱 -->
+    <color name="c_home_item_recipe">#ffc351</color>
+    <!-- 同龄交流 -->
+    <color name="c_home_item_cicle_age">#87baff</color>
+    <!-- 医院圈子 -->
+    <color name="c_home_item_cicle_hospital">#f988c5</color>
+    <!-- 专家在线 -->
+    <color name="c_home_item_expert">#65dbf0</color>
+    <!-- babytree Box -->
+    <color name="c_home_item_babytree_box">#e2a4ff</color>
+    <!-- 精彩活动 -->
+    <color name="c_home_item_active">#69ddb8</color>
+    <!-- 小工具 -->
+    <color name="c_home_item_tools">#f4b98e</color>
+    <!-- 宝宝树推荐 -->
+    <color name="c_home_commend">#ff7488</color>
+    <!-- 推荐列表title -->
+    <color name="c_home_list_title">#878787</color>
+    <!-- 孕期首页背景-新版 -->
+    <color name="c_home_background_main">#ffeeee</color>
+    <!-- 其他页面主页 -->
+    <color name="c_home_background">#f2f2f2</color>
+    <!-- 左侧菜单背景 -->
+    <color name="c_home_menu_background">#282828</color>
+    <color name="c_home_menu_background_selected">#1c1c1c</color>
+
+    <!-- 消息列表间隔线 -->
+    <drawable name="c_notice_list_divider">#d2d2d2</drawable>
+
+</resources>

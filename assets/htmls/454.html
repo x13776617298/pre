@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>决定何时停止工作</h1>
+        职场的准妈妈需决定何时停止工作专心待产的问题了。一般来说，如果准妈妈一切正常，工作强度不是很大，可以到预产期前二周左右再停止工作，甚至更晚一些也可以。但是，准妈妈到底何时停止工作好还要依据不同的工作性质来决定。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_3_255">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 255;" onclick="nativeNewBirthclubByWeek('37');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('37');return false;">查看孕10月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('450.html');return false;">上一篇：避免性生活</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('453.html');return false;">下一篇：记下急救号码</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("决定何时停止工作 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

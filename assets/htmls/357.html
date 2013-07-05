@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>多吃粗粮</h1>
+        很多人知道准妈妈吃粗粮有利于获得更全面的营养。不过，怎样吃粗粮，是有讲究的。粗粮，如玉米面、小米、土豆、红薯中的维生素、蛋白质、微量元素比大米和精面中的含量高。精米和精面中缺乏B族维生素，而粗粮中这种营养素含量丰富，搭配食用可以让营养摄入更全面。但粗粮里的纤维素会影响准妈妈对钙、铁等微量元素的吸收，注意不能和奶制品、补充铁或钙的食物，以及药物一起吃，最好间隔40分钟以上。如果吃燕麦片的话，最好在餐后40分钟左右，再补充铁剂或钙剂。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_179">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 179;" onclick="nativeNewBirthclubByWeek('26');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('26');return false;">查看孕7月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('355.html');return false;">上一篇：预定月嫂</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('360.html');return false;">下一篇：准备第五次产检</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("多吃粗粮 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

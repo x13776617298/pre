@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/home_grid_space"
+        android:background="@color/c_home_background_main"
+        android:orientation="vertical" >
+
+        <!-- 签到和头部 -->
+
+        <FrameLayout
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="164dp"
+            android:layout_marginBottom="@dimen/home_grid_space" >
+
+            <include
+                android:id="@+id/pregnancy_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="164dp"
+                layout="@layout/pregnancy_tip_view" />
+
+            <TextView
+                android:id="@+id/home_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:background="@drawable/sign_in_un"
+                android:gravity="center"
+                android:paddingBottom="80dp"
+                android:text="@string/s_home_sign_in"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+        <!-- 邀请准爸爸 -->
+
+        <Button
+            android:id="@+id/main_activity_invite"
+            style="@style/home_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/home_grid_space"
+            android:background="@color/c_home_invite_father"
+            android:text="@string/s_invite_father" />
+
+        <!-- 九宫格 -->
+
+        <com.babytree.apps.biz.home.ui.HomeGrid
+            android:id="@+id/home_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/home_grid_space"
+            android:cacheColorHint="@drawable/trans"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/home_grid_space"
+            android:listSelector="@drawable/trans"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/home_grid_space" />
+
+        <!-- 广告 -->
+
+        <FrameLayout
+            android:id="@+id/layout_ad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/home_grid_space"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.babytree.apps.biz.home.ad.ScrollPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:babytree="http://schemas.android.com/apk/res/com.example.scrollview"
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp" />
+
+            <com.babytree.apps.biz.home.ad.PagerControl
+                android:id="@+id/pager_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="12dp"
+                android:visibility="visible" />
+        </FrameLayout>
+        <!-- 宝宝树推荐列表 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/home_grid_space"
+            android:layout_marginRight="@dimen/home_grid_space"
+            android:layout_marginTop="@dimen/home_grid_space"
+            android:background="@drawable/home_commend_title"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left|center_vertical"
+                android:padding="8dp"
+                android:text="@string/s_home_babytree_commend"
+                android:textColor="@color/c_home_commend"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/home_grid_space"
+            android:layout_marginLeft="@dimen/home_grid_space"
+            android:layout_marginRight="@dimen/home_grid_space"
+            android:background="@drawable/home_commend_list"
+            android:orientation="vertical" >
+
+            <com.babytree.apps.biz.home.ui.HomeListView
+                android:id="@+id/home_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="8dp"
+                android:background="@color/transpranet"
+                android:divider="@null"
+                android:gravity="center"
+                android:listSelector="@drawable/trans" />
+
+            <TextView
+                android:id="@+id/notify_fail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                android:text="@string/s_home_load_fail"
+                android:textColor="#9b9b9b"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

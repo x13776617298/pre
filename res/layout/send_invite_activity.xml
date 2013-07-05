@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_father_invite"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_send_invite_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="@string/s_invite_tip"
+        android:textColor="@color/invite_info"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_send_invite_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_send_invite_info"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/s_invite_code_loading"
+        android:textColor="@color/invite_code"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_invite_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_send_invite_code"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_again_invite"
+            style="@style/btn_invite_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_invite_send"
+            android:text="@string/s_again_invite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_invite_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_send_invite_code"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_send_invite"
+            style="@style/btn_invite_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_invite_send"
+            android:text="@string/s_send_invite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_invite_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_send_invite_code"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_send_invite_retry"
+            style="@style/btn_invite_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_invite_send"
+            android:text="@string/s_retry_invite" />
+
+        <Button
+            android:id="@+id/btn_send_invite_cancel"
+            style="@style/btn_invite_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_invite_cancel"
+            android:text="@string/s_cancel_invite" />
+    </LinearLayout>
+
+</RelativeLayout>

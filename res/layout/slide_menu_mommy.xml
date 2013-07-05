@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_home_menu_background"
+        android:orientation="vertical" >
+
+        <!--  -->
+
+        <com.babytree.apps.biz.home.ui.HomeListView
+            android:id="@+id/slide_menu_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@drawable/trans"
+            android:divider="@drawable/menu_line"
+            android:dividerHeight="2dp" />
+
+        <include
+            android:id="@+id/slide_menu_list_header_view"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            layout="@layout/slide_menu_list_header" />
+
+        <com.babytree.apps.biz.home.ui.HomeListView
+            android:id="@+id/slide_menu_list_notify"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@drawable/trans"
+            android:divider="@drawable/menu_line"
+            android:dividerHeight="2dp" />
+
+        <TextView
+            android:id="@+id/notify_fail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="@string/s_home_load_fail"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

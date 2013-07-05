@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<style>
+    body { margin: 0px; padding: 0px; line-height: 150%; }
+    h1, h2, h3, h4, h5, h6, p, dl, dd, dt, ul, header, aside { margin: 0px; padding: 0px; font-weight: normal; }
+    h1, h2, h3, h4, h5, h6, h6, yahei { font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif; }
+    img { border: none; }
+    a { font-size: 1em; color: #1122CC; blr:expression(this.onFocus=this.blur());
+    }
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; color: #1122CC; }
+    a:hover { text-decoration: underline; color: #CC000A; }
+    a:active { text-decoration: none; color: #1122CC; }
+    a:focus { outline: none; -moz-outline-style: none; }
+    .clear_debug { clear: both; overflow: hidden; width: 100%; height: 0px; }
+    .mika_title { background: url(t.png); height: 42px; padding:0 0 0 0.5em; max-width: 100%;line-height: 42px; font-size:large; font-weight: bold; color: #FFF; }
+    .mika_service { margin: 0.4em 0 0 0; height: 30px; opacity: 0.7; background: -webkit-gradient(linear, 0 0, 0 bottom, from(#AEEB87), to(#A5E183)); background: -o-linear-gradient(top, #AEEB87, #A5E183); background: -moz-linear-gradient(top, #AEEB87, #A5E183); font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif; padding: 20px 0 0 0; color: #FFF; position: fixed; bottom: 0px; left: 0px; width: 100%; }
+    .mika_service span { /*background: url(service.png) no-repeat;*/ height: 100%; line-height: 15px; /*padding: 0 0 0 65px;*/ width: 100%; font-size: 22px; margin: 0 auto; display: block; color: #FFF; text-shadow: 0 1px 1px #999; text-align: center; }
+    .mika_service span em { font-style: normal; color: #FFF; }
+    /**
+     hi case
+     */
+    .hi_header { background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FCFFFA), to(#FFFFFF)); background: -o-linear-gradient(top, #FCFFFA, #FFFFFF); background: -moz-linear-gradient(top, #FCFFFA, #FFFFFF); margin: 0px; overflow: hidden; }
+    .hi_header_guide { background: -webkit-gradient(linear, 0 0, 0 bottom, from(#94E561), to(#87D758)); background: -o-linear-gradient(top, #94E561, #87D758); background: -moz-linear-gradient(top, #94E561, #87D758); }
+    .hi_header_guide img { margin: 0 0 0 15px; }
+    .hi_header p { text-align:center; }
+    .hi_header p img { max-width: 100%; }
+    .hi_main { background: #FFF; }
+    .hi_main_doc { margin: 0 0 30px; }
+    .hi_main_doc_item { background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#F0F0F0)); background: -o-linear-gradient(top, #FFFFFF, #F0F0F0); background: -moz-linear-gradient(top, #FFFFFF, #F0F0F0); width: 100%; }
+    .hi_main_doc_item { margin: 0.75em 0 0 0; padding: 0 0 0.75em; border-bottom: 1px dashed #D9D9D9; }
+    .hi_main_doc_img { float: left; width: 45%; text-align: right; }
+    .hi_main_doc_img img { max-width: 100%; overflow: hidden; }
+    .hi_main_doc_text { float: left; padding: 0.5em 0 0 1em; width: 45%; color: #666; line-height: 150%; overflow: hidden; }
+</style>
+<title>产品介绍</title>
+</head>
+<body>
+<header class="hi_header">
+    <p><img src="s_2.jpg" /></p>
+    <p><a href="http://www.mika123.com"><img src="s_3.jpg" /></a></p>
+</header>
+<aside class="hi_main">
+    <div class="mika_title">每月一盒米卡中都有什么？</div>
+    <div class="hi_main_doc">
+        <dl class="hi_main_doc_item">
+            <dd class="hi_main_doc_img"><img src="s_8.png" /></dd>
+            <dd class="hi_main_doc_text">以故事、画面、歌曲、律动等多样的表现方式呈现，让宝宝在轻松、快乐的氛围中体验学习的乐趣，快乐成长</dd>
+            <dt class="clear_debug"></dt>
+        </dl>
+        <dl class="hi_main_doc_item">
+            <dd class="hi_main_doc_img"><img src="s_11.png" /></dd>
+            <dd class="hi_main_doc_text">和DVD的内容相互呼应，是DVD内容的练习和延伸。通过简单好玩的读本游戏，帮助宝宝巩固DVD中的学习内容。</dd>
+            <dt class="clear_debug"></dt>
+        </dl>
+        <dl class="hi_main_doc_item">
+            <dd class="hi_main_doc_img"><img src="s_13.png" /></dd>
+            <dd class="hi_main_doc_text">严格按照宝宝的年龄段需求设计，玩法丰富多样，激发宝宝的探索兴趣，发展宝宝的观察力和创造力。</dd>
+            <dt class="clear_debug"></dt>
+        </dl>
+        <dl class="hi_main_doc_item">
+            <dd class="hi_main_doc_img"><img src="s_15.png" /></dd>
+            <dd class="hi_main_doc_text">每期一个活泼有趣的小故事。色彩亮丽、形象鲜明的绘画风格便于吸引宝宝的注意力，也便于宝宝理解绘本的内容。</dd>
+            <dt class="clear_debug"></dt>
+        </dl>
+        <dl class="hi_main_doc_item">
+            <dd class="hi_main_doc_img"><img src="s_17.png" /></dd>
+            <dd class="hi_main_doc_text">配合不同月份的时令特点，为父母设计了最实用的育儿宝典、最科学的教育指导。</dd>
+            <dt class="clear_debug"></dt>
+        </dl>
+    </div>
+</aside>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>法式薄饼</h1>
+        <br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;低筋面粉150克，牛奶200毫升，鸡蛋2个，植物油、奶油、白糖各适量。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; 1、将鸡蛋打散和白糖混合拌匀后，加入低筋面粉和一半的牛奶一起拌匀；</div>
+<div>&nbsp; &nbsp; &nbsp; 2、拌匀后再加入植物油与另一半的牛奶拌匀，放一夜；</div>
+<div>&nbsp; &nbsp; &nbsp; 3、隔日取出，将平底锅抹上奶油后加热，再舀入锅中，煎至一面产生金黄色纹路时翻面，翻面稍候即可起锅。</div>
+&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_132">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 132;" onclick="nativeNewBirthclubByWeek('19');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('19');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('570.html');return false;">上一篇：虾片粥</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('908.html');return false;">下一篇：骨头汤炖莴笋</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("法式薄饼 本甜点精致可口，老少皆宜，原料鸡蛋具有养心安神，补血，滋阴润燥之功效。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

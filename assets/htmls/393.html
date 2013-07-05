@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>多喝一些牛奶</h1>
+        每天最好喝两杯，也可喝豆浆，吃些豆制品、海带和紫菜。缺钙较严重的准妈妈要根据医生建议补充钙剂。孕晚期胎宝宝的营养需求达到了最高峰，这时准妈妈需要摄入充足的蛋白质、维生素C、维生素B族、叶酸、铁质和钙质。同时，应避免食用含有着色剂、防腐剂的食物，如罐头、香肠；含咖啡因、酒精的饮料；高盐、油炸食品、辛辣调料；生肉、生鱼片、生鸡蛋等。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_5_208">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 208;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('395.html');return false;">上一篇：警惕“早产”</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('398.html');return false;">下一篇：准备第七次产检</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("多喝一些牛奶 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

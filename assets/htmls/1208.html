@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>戒烟戒酒</h1>
+        <font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 怀孕的妇女务必戒烟戒酒，这是因为孕妇是通过脐静脉的血液，经过胎盘把氧输送给胎儿的。母亲吸烟后，血中的一氧化碳含量增加，使胎儿血中一氧化碳的含量也随之增加，进而导致组织缺氧、心肌缺氧；在怀孕早期可使胚胎分化不良；在孕中、晚期，则使胎儿发育不良。母亲吸烟，新生儿唇裂、腭裂、幽门狭窄的发病率明显升高；先天性心脏病的发生率增加一倍。而孕妇饮酒也象吸烟一样，会严重危机胎儿的健康发育。每天饮150毫升以上烈性酒的孕妇，其新生儿有30%&mdash;40%智力发育迟缓，生长缓慢及面部畸形；每天饮50&mdash;100毫升酒的孕妇，则有10%的新生儿会发生类似的情况。为了下一代的健康，各位将做父母的年轻人，孕期一定要忌烟酒。</font>    </article>
+    <dl class="other link">
+                        <dt id="_2_5_19">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 19;" onclick="nativeNewBirthclubByWeek('3');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('3');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1207.html');return false;">上一篇：知晓第一次产检时间</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('308.html');return false;">下一篇：补充叶酸</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("戒烟戒酒 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

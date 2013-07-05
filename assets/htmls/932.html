@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>香菇烧豆腐</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 豆腐60克，鲜香菇50克，植物油、盐、料酒、水淀粉、葱花各适量。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1.鲜香菇去蒂，洗净，切小片，在沸水锅中焯一下，捞出沥干；豆腐洗净，沸水锅中煮一下，捞出过凉水，沥干；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2.炒锅置火上，加入适量植物油烧热，放入豆腐块煸炒一会儿；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 3.放入料酒、盐，用大火烧5-6分钟，用水淀粉勾薄芡，撒入葱花，放入香菇片和适量的水，几分钟后关火即可。</div>
+<div>&nbsp;</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_168">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 168;" onclick="nativeNewBirthclubByWeek('24');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('24');return false;">查看孕6月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('967.html');return false;">上一篇：清蒸基围虾</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('897.html');return false;">下一篇：甜椒牛肉丝</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("香菇烧豆腐 香菇营养丰富，含有大量优质蛋白、多种维生素和矿物质，是促进胎儿大脑发育的食品。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

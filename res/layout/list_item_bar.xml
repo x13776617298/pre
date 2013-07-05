@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.babytree.apps.biz.father.ui.ListItemBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="58dp"
+    android:layout_margin="8dp"
+    android:background="@color/transpranet" >
+
+    <RelativeLayout
+        android:id="@+id/item_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/task" >
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15sp"
+            android:src="@drawable/undone" />
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/arrow_white" />
+
+        <TextView
+            android:id="@+id/task_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/right"
+            android:layout_toRightOf="@+id/left"
+            android:singleLine="true"
+            android:text="写一点让准妈妈开心的语言"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</com.babytree.apps.biz.father.ui.ListItemBar>

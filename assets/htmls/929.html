@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>蒜泥茄子</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>茄子(紫皮，长) 2根，白皮蒜 5瓣，食盐适量，白糖少许，鸡精少许，醋适量，香油少许，橄榄油适量。</div>
+<div>制作方法：</div>
+<div>1、长茄子洗净，用手掰开。注意：要用手掰开。</div>
+<div>2、放在笼屉中，开水蒸7、8分钟，不可蒸的太过，以茄子不变色为准，茄子要铺放整齐，不要码在一起。</div>
+<div>3、蒸好的茄子取出，晾一会，就开始撕成茄条，不要弄得太细那样就不好吃了，但是也不要太粗，也会影响口感。</div>
+<div>4、茄条撕好后，将蒜剁碎，放在茄子上，调入适量的盐、糖、鸡精，再用热至九成的热油泼香，拌匀，食用前滴几滴香油，拌匀，即可食用。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_101">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 101;" onclick="nativeNewBirthclubByWeek('15');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('15');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1041.html');return false;">上一篇：鸡脯扒小白菜</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('864.html');return false;">下一篇：白菜溜鸭片</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("蒜泥茄子 每100克茄子中即含维生素P 750毫克，这是许多蔬菜水果望尘莫及的。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

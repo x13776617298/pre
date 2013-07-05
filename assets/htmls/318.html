@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>保持好心情</h1>
+        许多准妈妈发现，为什么自己怀孕后，脾气变得容易焦躁了呢？而准妈妈们也很明白，坏的情绪对腹中的胎宝宝也会有所影响，准妈妈应该试图令自己保持一颗轻松愉悦的好心情。<br />
+<br />
+从生理方面来说，怀孕后大脑皮质功能暂时失调，兴奋与抑制不平衡，自制力减弱；孕期雌激素的升高对情绪造成影响；妊娠反应、便秘等造成准妈妈身体不适。而在心理上，准妈妈的情况更为复杂。身心经历着巨大变化，经常会无端冒出各种问题。比如，胎宝宝是否健康？万一孕期生病了怎么办？怀孕后自己的职业发展会不会受到影响？宝宝出生后谁来带？宝宝出生后费用太高怎么办？<br />
+<br />
+所以，准妈妈受到情绪的影响，此时会变得特别挑剔，有的脾气暴躁，有的多愁善感。这时候，准妈妈的家人，特别是准爸爸，应该多多体谅和理解准妈妈，给予准妈妈更多的安慰和照顾。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_32">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 32;" onclick="nativeNewBirthclubByWeek('5');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('5');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('317.html');return false;">上一篇：告诉亲人“我怀孕了”</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('329.html');return false;">下一篇：补充叶酸</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("保持好心情 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.babytree.apps.biz.father.ui.PregnancyTipView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pregnancy_tip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/baby_img"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/moren"/>
+
+    <TextView
+        android:id="@+id/day_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:paddingBottom="10dp"
+        android:textColor="#ffffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/mama_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/day_date"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pregnancy_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mama_tip"
+        android:layout_toRightOf="@+id/mama_tip"
+        android:textColor="#ffffffff"
+        android:textSize="24sp" />
+
+</com.babytree.apps.biz.father.ui.PregnancyTipView>

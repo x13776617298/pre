@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:id="@+id/head_img"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="top|center"
+                    android:background="@drawable/photo_no_photo"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="top|center"
+                    android:background="@drawable/personal_center_avator_bkd"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/fruit_textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/shuiguo"
+                android:gravity="center|right"
+                android:paddingRight="10dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/information"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/main_personal_center_nickname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/layout_selector_background" >
+
+                    <TextView
+                        android:id="@+id/txt_nickname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginRight="16dp"
+                        android:ellipsize="middle"
+                        android:paddingLeft="24dp"
+                        android:singleLine="true"
+                        android:textColor="@color/text_color6"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/pic_txt_nickname" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/icon_arrow" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/information"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/main_pregnancy_img"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/layout_selector_background" >
+
+                    <TextView
+                        android:id="@+id/main_activity_slidingdrawer_header_textview1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginRight="16dp"
+                        android:ellipsize="middle"
+                        android:paddingLeft="24dp"
+                        android:singleLine="true"
+                        android:text="预产期:"
+                        android:textColor="@color/text_color6"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/pregnancy_date_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_marginLeft="70dp"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/text_color6"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/pic_txt_date" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/icon_arrow" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/information"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/main_personal_center_hospital"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/layout_selector_background"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_hospital"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_marginRight="16dp"
+                        android:ellipsize="middle"
+                        android:paddingLeft="24dp"
+                        android:singleLine="true"
+                        android:text="未选择医院"
+                        android:textColor="@color/text_color6"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/pic_txt_hospital" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/icon_arrow" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/information"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/main_pregnancy_img_location"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/layout_selector_background" >
+
+                    <TextView
+                        android:id="@+id/main_pregnancy_text_location"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginRight="16dp"
+                        android:ellipsize="middle"
+                        android:paddingLeft="24dp"
+                        android:singleLine="true"
+                        android:text="位置"
+                        android:textColor="@color/text_color6"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/pic_txt_local" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="1dp"
+                        android:src="@drawable/icon_arrow" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlaout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/information_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_post_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/personal_info_pressed"
+            android:text="发表的帖子"
+            android:textColor="@color/text_color5"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/main_reply_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/personal_info_normal"
+            android:text="回复的帖子"
+            android:textColor="@color/text_color5"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/main_collect_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/personal_info_normal"
+            android:text="收藏的帖子"
+            android:textColor="@color/text_color5"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/main_notice_rl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_personal_info"
+                android:text="评论回复"
+                android:textColor="@color/text_color5"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_unread_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ic_notice_bg"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

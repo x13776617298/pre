@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>酸菜鱼丸</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>&nbsp;酸菜一袋，鲤鱼或草鱼一尾，葱姜，酱油，盐，淀粉，鸡蛋；</div>
+<div>制作方法：&nbsp;</div>
+<div>1，酸菜从袋中取出，用清水泡。草鱼（鲤鱼）去骨去皮。</div>
+<div>2，将草鱼（鲤鱼）用刀背剁烂，并去除刺。</div>
+<div>3，将准备好的鱼馅料加酱油，鸡蛋一枚，水少许，淀粉少许搅拌成丸子馅</div>
+<div>4，准备开水。加鱼骨，葱，姜，鱼尾，烧开，做好鱼汤。然后过滤骨刺，只留清汤。</div>
+<div>5，用清汤把鱼丸汆熟。取出。</div>
+<div>6，锅里加油，煎炸鱼头，放入酸菜，加如盐，酱油，料酒。然后把汆好的丸子和清汤倒入，煮至熟透。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_25">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 25;" onclick="nativeNewBirthclubByWeek('4');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('4');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('836.html');return false;">上一篇：煎酿茄子</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('12.html');return false;">下一篇：山药鱼片汤</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("酸菜鱼丸 酸菜具有清热解毒、开胃健脾之作用，本菜酸爽可口，使孕妇食欲增强。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

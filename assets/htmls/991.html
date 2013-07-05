@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>番茄猪肝菠菜面</h1>
+        <br />
+<br />
+食谱原料：<br />
+面条250克,番茄100克,菠菜50克,猪肝75克,花生油10克,花椒、精盐、香油、鸡汤、酱油、姜丝、葱丝各适量。<br />
+制作方法：<br />
+1、菠菜洗净，切段，放在开水中沸煮3分钟后捞出，迅速放在凉开水中冲凉。<br />
+2、番茄洗净切片。猪肝切成片，用开水汆一下。<br />
+3、锅置火上烧热，倒入花生油，待油热时迅速放入肝片炒散，加入葱丝、姜丝翻炒几下。<br />
+4、另起锅烧热，倒入花生油，放入花椒，炸香捞出，再放入菠菜、番茄翻炒。另起锅倒入开水，放一勺鸡汤，水开后放干面条煮熟，再放番茄、菠菜、猪肝，淋入香油即可。<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_156">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 156;" onclick="nativeNewBirthclubByWeek('23');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('23');return false;">查看孕6月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('889.html');return false;">上一篇：银耳牛奶粥</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('976.html');return false;">下一篇：猪肉馅饼</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("番茄猪肝菠菜面 此面条味道鲜美，易于消化，蛋白质和维生素A含量高，营养均衡，适合准妈妈食用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

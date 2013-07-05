@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background" >
+
+    <RelativeLayout
+        android:id="@+id/ringtone_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector_background" >
+
+        <TextView
+            android:id="@+id/txt_big_title_three"
+            style="@style/remind_big_title_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:text="铃声提醒" />
+
+        <TextView
+            android:id="@+id/txt_small_content_three"
+            style="@style/remind_small_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_big_title_three"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:text="是否开启铃声提醒" />
+
+        <CheckBox
+            android:id="@+id/check_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:checked="true"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txt_small_content_three"
+            android:background="@color/light_gray" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vibrate_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector_background" >
+
+        <TextView
+            android:id="@+id/txt_big_title_four"
+            style="@style/remind_big_title_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:text="震动提醒" />
+
+        <TextView
+            android:id="@+id/txt_small_content_four"
+            style="@style/remind_small_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_big_title_four"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:text="是否开启震动提醒" />
+
+        <CheckBox
+            android:id="@+id/check_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:checked="true"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txt_small_content_four"
+            android:background="@color/light_gray" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_notify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector_background" >
+
+        <TextView
+            android:id="@+id/txt_big_title_four"
+            style="@style/remind_big_title_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:text="提醒间隔" />
+
+        <TextView
+            android:id="@+id/txt_notify_summ"
+            style="@style/remind_small_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_big_title_four"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:text="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_alerm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector_background" >
+
+        <TextView
+            android:id="@+id/txt_big_title_four"
+            style="@style/remind_big_title_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip"
+            android:text="提醒时段" />
+
+        <TextView
+            android:id="@+id/txt_notify_alerm"
+            style="@style/remind_small_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_big_title_four"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="10dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_small_content_three"
+        android:background="@color/light_gray" >
+    </LinearLayout>
+
+</LinearLayout>

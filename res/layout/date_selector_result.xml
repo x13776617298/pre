@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_home_background"
+    android:orientation="vertical"
+    android:paddingLeft="20dip"
+    android:paddingTop="30dip" >
+
+    <TextView
+        android:id="@+id/date_selector_result_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="根据计算，您的预产期是"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date_selector_result_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="14.4dip"
+        android:textColor="@color/red"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/date_selector_result_daysnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="14.4dip"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/date_selector_result_startuse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.8dip"
+        android:background="@drawable/date_selector_result_button"
+        android:button="@null"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>

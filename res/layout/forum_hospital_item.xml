@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="3dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+     >
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/location_bg"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="5dip" 
+        android:layout_marginBottom="5dp" >
+
+            <TextView
+                android:id="@+id/txt_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+    </LinearLayout>
+            <FrameLayout
+                android:id="@+id/layout_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pull_list_selector_background"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dip"
+                android:paddingRight="1dp"
+                android:paddingTop="5dp" >
+
+              
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="2"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                     
+
+                            <ImageView
+                                android:id="@+id/img1"
+                                android:layout_alignParentLeft="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/ic_author" />
+
+                            <TextView
+                                android:id="@+id/txt_author_name"
+                                android:text="haha"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/img1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:maxLength="7"
+                                android:textColor="@color/gray"
+                                android:textSize="10sp" />
+                      
+
+                      
+                            <ImageView
+                                android:id="@+id/img2"
+                                android:layout_marginLeft="105dp"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_time" />
+
+                            <TextView
+                                android:text="2012-12"
+                                android:layout_marginLeft="125dp"
+                                android:layout_centerVertical="true"
+                                android:id="@+id/txt_last_response_ts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/gray"
+                                android:textSize="10sp" />
+                      
+
+                       
+
+                            <TextView
+                                android:id="@+id/txt_pv_count"
+                                android:layout_toLeftOf="@+id/txt_response_count"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="看173"
+                                android:textColor="@color/gray"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_alignParentRight="true"
+                                android:id="@+id/txt_response_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_comment_new"
+                                android:gravity="center"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp"
+                                android:text="回135"
+                                android:textColor="@color/white"
+                                android:textSize="10sp" />
+                        
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/jing_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_jing"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/ding_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_ding"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/picture_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_picture"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/xin_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_xin"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </FrameLayout>
+      
+</LinearLayout>

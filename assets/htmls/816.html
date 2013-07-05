@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>蜜饯胡萝卜</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 胡萝卜500克、蜂蜜150克</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、将胡萝卜去皮，洗净，切丁，放入沸水中焯一下，沥干水分，放在阳光下晾晒一日；焯过胡萝卜的水留下来，待用。</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、将胡萝卜放入原来焯过的水中，小火煮沸，继续煮20分钟左右，煮干水分，待冷却后，拌入蜂蜜即可。</div>
+<div>&nbsp;</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_28">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 28;" onclick="nativeNewBirthclubByWeek('4');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('4');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('826.html');return false;">上一篇：美味蔬菜蛋羹</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('806.html');return false;">下一篇：奶酪蛋汤</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("蜜饯胡萝卜 蜜饯胡萝卜可开胃、助消化，适宜于食欲不振或过饱伤食、消化不良者食用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>写一篇孕期日记</h1>
+        不管你是站在妈妈角度来写，还是假用小宝宝的人称来书写，孕期的日记都会是一生中最珍贵的回忆。写下孕期每一天的改变，准爸爸妈妈生活中的趣味和烦恼，想想肚子中小宝宝一点一滴的改变，都会是陪伴你孕期最细腻体贴的一个记录习惯，现在您正处于艰辛幸福的孕晚期，宝宝的胎动和生活的变化一定让你有所感悟，写下此刻的心情日记吧，寄语于未来出世的小宝贝。日记完全不用拘泥于格式与内容，可以运用自己喜欢的形式即可。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_7_231">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 231;" onclick="nativeNewBirthclubByWeek('33');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('33');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('420.html');return false;">上一篇：了解分娩方式</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('425.html');return false;">下一篇：考虑是否储存脐带血</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("写一篇孕期日记 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

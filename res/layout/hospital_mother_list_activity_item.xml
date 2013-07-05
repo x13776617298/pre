@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/hospital_user_list_selector_background"
+        android:orientation="horizontal"
+        android:descendantFocusability="blocksDescendants"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/img_head_user"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/avatar_bkg"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:focusable="false" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_name_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="一心他妈"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/small_blue"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_preg_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="暂无"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_send_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_hospital_user_sendmsg"
+            android:clickable="true"
+            android:focusable="false" />
+    </LinearLayout>
+
+</LinearLayout>

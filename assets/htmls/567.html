@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>黄瓜海蜇丝</h1>
+        <div style="text-align: center;"></div>
+<br />
+<div>黄瓜海蜇丝</div>
+<div>&nbsp;</div>
+<div>食谱原料：</div>
+<div>海蜇、嫩黄瓜、红椒、葱、姜、精盐、香油。</div>
+<div><br />
+制作方法：</div>
+<div>1、先把黄瓜、海蜇、红椒、葱、姜分别切成丝备用；</div>
+<div>2、锅内倒水烧开后，放入海蜇丝，用大火快速焯透，捞出沥干水分备用；</div>
+<div>3、把黄瓜丝、葱丝、姜丝、红椒丝放入小碗中调入盐、香油拌匀，再放入海蜇丝拌匀即可。</div>
+<br />
+<br />
+<br />    </article>
+    <dl class="other link">
+                    <dt>相关知识</dt>
+                <dd><a href="javascript:void(0);" onclick="nativeNavigate('206.html');return false;"><img src="discuz_icon.png">孕中期多种营养不可或缺</a></dd>
+                <dd><a href="javascript:void(0);" onclick="nativeNavigate('208.html');return false;"><img src="discuz_icon.png">孕中期均衡补充必需营养素</a></dd>
+                    <dt id="_1_5_110">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 110;" onclick="nativeNewBirthclubByWeek('16');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('16');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('870.html');return false;">上一篇：猪骨莲藕汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('911.html');return false;">下一篇：虾仁鸡蛋羹</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("黄瓜海蜇丝 黄瓜脆嫩清香，味道鲜美，海蛰含有人们饮食中所缺的碘，本菜清热解毒又祛痰。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

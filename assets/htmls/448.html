@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>数胎动</h1>
+        <font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 现在准妈妈应该坚持有规律地数胎动了，时间最好固定在每天晚间8-9点，胎动一般平均每小时3-5次。每天坚持数胎动，是一种直接胎教，当你对胎儿高度注意时，可以想象胎儿的各种体态，胎儿也会回应你的感受，这样会增进母子之间的感情交流。<br />
+</font>    </article>
+    <dl class="other link">
+                        <dt id="_2_3_136">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 136;" onclick="nativeNewBirthclubByWeek('20');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('20');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('439.html');return false;">上一篇：远离吸烟环境</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('441.html');return false;">下一篇：监测血压</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("数胎动 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

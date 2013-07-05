@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_home_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linearlayout_above_bg"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="邮    箱:"
+                android:textColor="@color/gray"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:ellipsize="end"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linearlayout_middle_bg"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="0.9"
+                android:text="注册时间:"
+                android:textColor="@color/gray"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_weight="0.1"
+                android:text=""
+                android:textColor="@color/gray"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+ <LinearLayout          
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/linearlayout_middle_bg"
+            android:padding="1dp" 
+            >
+        <RelativeLayout
+            android:id="@+id/layout_nickname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_selector_background"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="0.9"
+                android:text="昵   称:"
+                android:textColor="@color/gray"
+                android:layout_alignParentLeft="true"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personal_nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_weight="0.1"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingLeft="70dp"
+                android:text=""
+                android:gravity="right"
+                android:layout_centerInParent="true"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+                <ImageView
+                android:id="@+id/ic_arrow_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:background="@drawable/ic_arrow"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"></ImageView>
+        </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout          
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/linearlayout_middle_bg"
+            android:padding="1dp" 
+            >
+        <LinearLayout
+            android:id="@+id/layout_sex"
+            android:background="@drawable/layout_selector_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+           >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="0.9"
+                android:text="性   别:"
+                android:textColor="@color/gray"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                 android:id="@+id/personal_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_weight="0.1"
+                android:text="女"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:background="@drawable/ic_arrow" />
+        </LinearLayout>
+</LinearLayout>
+        <LinearLayout
+           android:padding="1dp"
+            android:background="@drawable/linearlayout_down_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_position"
+            android:background="@drawable/layout_selector_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+           >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="0.9"
+                android:text="居住城市:"
+                android:textColor="@color/gray"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personal_position_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_weight="0.1"
+                android:textColor="@color/blue"
+                android:text="北京市  东城区"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+			
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:background="@drawable/ic_arrow" />
+        </LinearLayout>
+</LinearLayout>
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_pressed1"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

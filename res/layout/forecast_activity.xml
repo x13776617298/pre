@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_home_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="@string/title_forecast"
+        android:textColor="@color/black" />
+
+    <ListView
+        android:id="@+id/forecast_activity_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:clickable="false" >
+    </ListView>
+
+</LinearLayout><!--
+     <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingLeft="10dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/s1_forecast" android:textColor="@color/black"/>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/forecast_cbx1_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null"
+                    android:background="@drawable/checkbox"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forecast_select_yuan"
+                    android:textColor="@color/black"/>
+                <CheckBox android:id="@+id/forecast_cbx1_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null"
+                    android:background="@drawable/checkbox"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forecast_select_jian"
+                    android:textColor="@color/black"/>
+                <CheckBox android:id="@+id/forecast_cbx1_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null"
+                    android:background="@drawable/checkbox"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forecast_select_buzhidao"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+    </ScrollView>
+-->

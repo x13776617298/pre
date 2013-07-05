@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>猕猴桃烩水果</h1>
+        <br />
+<div>食谱原料：</div>
+<div>苹果、西瓜、菠萝各100克，猕猴桃500克，橙汁1000克，红樱桃50克。</div>
+<div>制作方法：&nbsp;</div>
+<div>1. 将苹果、西瓜、菠萝切成小块，猕猴桃洗净用小刀拉去皮，切小块；</div>
+2. 将以上各料放入盆内，加入橙汁、红樱桃，放入冰箱即成。&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_151">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 151;" onclick="nativeNewBirthclubByWeek('22');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('22');return false;">查看孕6月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('972.html');return false;">上一篇：番茄土豆豆角炖茄子</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('573.html');return false;">下一篇：香脆三丝</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("猕猴桃烩水果 猕猴桃含有维生素C、E、K等，是膳食纤维丰富的低脂肪食品，清淡可口，营养丰富。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

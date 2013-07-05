@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>奶汁烩饭</h1>
+        <div></div>
+<br />
+<br />
+<div>食谱原料：</div>
+<div>牛奶200毫升、大米200克、黄油15克、奶酪粉40克、盐2克 。</div>
+<div>制作方法：</div>
+<div>1、将牛奶和大米倒入小汤锅中，用大火烧沸后转小火加盖煮约10分钟；<br />
+2、在锅中加入黄油和奶酪粉，并搅拌均匀；</div>
+<div>3、最后调入盐即可；</div>
+<div>4、也可以用淡奶油来代替奶酪粉。</div>
+&nbsp;    </article>
+    <dl class="other link">
+                        <dt id="_1_5_244">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 244;" onclick="nativeNewBirthclubByWeek('35');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('35');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('586.html');return false;">上一篇：鱼粒虾仁</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('993.html');return false;">下一篇：蒸木耳香菇鸡</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("奶汁烩饭 牛奶是人体钙的最佳来源，而且钙磷比例非常适当，利于孕妇对于钙质的吸收。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,4 @@
+    <resources>
+        <string name="receive_title">申请领取</string>
+         <string name="receive_str1">姓名</string>
+    </resources>

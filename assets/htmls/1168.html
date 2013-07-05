@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>三维B超、普超及彩超</h1>
+        <p><font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三维B超、普超及彩超的区别<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 普通B超就像黑白照片，彩色B超就像彩色照片，而三维B超就像是摄像机所拍摄的VCR。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B超和彩色B超看到的只是一个平面，因此，这种二维图像不能满足准妈妈们"看到"宝宝模样的愿望。而三维B超的出现，可以让准妈妈们看到的是胎儿的立体图像，胎儿的前后、左右、上下都可以看到，更加全面、真实且清晰。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通B超、彩超和三维彩超，要怎样选择?<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 上三维和四维不能够完全作为系统筛查的超声检查。真正观察胎儿有没有畸形，用的是二维超声观察。三维超声是在面部呈像方面的确有优势，但许多畸形，不一定能完全靠三维能检查出来。它只是作为二维超声的一个补充。一般在早期阶段，可做一次三维B超，对胎儿进行一个整体的观察。在孕中期做系统筛查时，也可以选择三维B超，但是在孕晚期则不推荐了。</font></p>
+<p>&nbsp;</p>    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('三维');return false;"><img src="discuz_icon.png">三维</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('四维');return false;"><img src="discuz_icon.png">四维</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('B超');return false;"><img src="discuz_icon.png">B超</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('彩超');return false;"><img src="discuz_icon.png">彩超</a></dd>
+                                    <dt id="_1_12_1">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 1;" onclick="nativeNewBirthclubByWeek('1');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('1');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1167.html');return false;">上一篇：准妈妈要特别注意第五次产检</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1169.html');return false;">下一篇：预防胎儿巨大</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("三维B超、普超及彩超 三维B超、普超及彩超的区别");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

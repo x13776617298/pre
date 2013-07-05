@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>让准爸爸参与胎教</h1>
+        胎宝宝非常喜欢男性低沉而浑厚的声音。准爸爸绝对不能因为工作忙而将胎教推给孕妈妈一个人。每天讲故事或念诗给腹内的宝宝听，会使胎宝宝感动安心和高兴，而重复讲同样的故事，也会培养胎宝宝敏感的语言意识、对事物的好奇心和理解家人对他的爱心。<br />
+<br />
+准爸爸可以选择一些自己喜欢的童话故事和适合胎宝宝的几首诗歌，内容要丰富、生动、令人愉快，最好是充满爱心和祥和气息的故事。<br />
+<br />
+孕妈妈和准爸爸一定要注意坚持对话，这可是促进胎宝宝大脑发育、开发智力潜能的重要方法啊！<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_7_126">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 126;" onclick="nativeNewBirthclubByWeek('18');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('18');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('433.html');return false;">上一篇：适当外出游玩</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('436.html');return false;">下一篇：分享B超照片</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("让准爸爸参与胎教 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

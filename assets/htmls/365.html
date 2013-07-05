@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>选择淋浴</h1>
+        现在人们洗澡通常采用淋浴的比较多，对准妈妈来说，更需如此。在怀孕的中后期，你的肚子较大、重心不稳，容易滑倒，所以必须坐在有靠背的椅子上淋浴，以避免跌倒。如果你体质较弱特别容易疲劳，可以在家里偶尔选择坐浴，但一定要注意浴缸和水的清洁。如果你确实特别怕累，淋浴时请准爸爸陪护也是不错的选择。<br />
+<br />
+一般怀孕以后不主张坐浴，如果坐浴，浴后的脏水有可能进入阴道，而阴道的防病力减弱，就容易引起宫颈炎、阴道炎、输卵管炎等，或引起尿路感染，使准妈妈出现畏寒、高热、腹痛等症状，甚至发生宫内或外阴感染而引起早产。这样势必增加孕期用药的机会，也给畸胎、早产创造了条件。因此，孕妈妈不要坐浴，更不要到公共浴池去洗澡。同时，热水不要长时间冲淋腹部，以减少对胚胎的不良影响。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_186">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 186;" onclick="nativeNewBirthclubByWeek('27');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('27');return false;">查看孕7月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('363.html');return false;">上一篇：坚持午睡</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('366.html');return false;">下一篇：了解高危妊娠</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("选择淋浴 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

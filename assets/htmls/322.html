@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>远离铅污染环境</h1>
+        胎儿神经系统对铅很敏感，铅可造成胎儿脑和中枢神经系统的缺陷，使准妈妈发生中毒机会也很大。目前，铅污染的范围很广，如电池、油漆、汽车尾气、化妆品、餐饮容器、化工污染等。准妈妈要避免铅污染，不使用含铅超标的化妆品；不食用含铅高的食品，如爆米花、膨化食品等；不用含铅的器皿做餐具；尽量避开汽车尾气。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_151">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 151;" onclick="nativeNewBirthclubByWeek('22');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('22');return false;">查看孕6月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('320.html');return false;">上一篇：进行面部按摩</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('321.html');return false;">下一篇：多吃蔬菜水果</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("远离铅污染环境 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

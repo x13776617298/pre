@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>清蒸鲤鱼</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>鲤鱼 1条，冬笋 50克，香菇 3朵，蒸鱼豉油 2汤匙，食盐 1/2茶匙，料酒 1茶匙，姜 10克，葱 3根。</div>
+<div>制作方法：</div>
+<div>1、鲤鱼去鳞去除内脏，洗净后，用刀倾斜45度，在鱼身上切几刀，深大约2厘米，每刀之间间隔5厘米。</div>
+<div>2、在鱼身正反面撒上盐和料酒，用手抹开，腌制10分钟。香菇泡软后切片。冬笋洗净后，切成薄片备用。葱切段，姜切片。</div>
+<div>3、将葱段铺在盘子里，放上鱼，在鱼身的切口内，放上一半儿切好的香菇片、笋片、姜片，另一半填在鱼肚子里。</div>
+<div>4、淋上蒸鱼豉油，再切少许的葱段和姜丝撒在鱼身的表面。</div>
+<div>5、蒸锅里加水，放入鱼，加盖用大火蒸到冒热气后，继续蒸8分钟即可。</div>
+<div>6、取出撒上红椒丝即可。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_185">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 185;" onclick="nativeNewBirthclubByWeek('27');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('27');return false;">查看孕7月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1004.html');return false;">上一篇：炒胡萝卜酱</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('916.html');return false;">下一篇：酥炸鸡肝</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("清蒸鲤鱼 鲤鱼的蛋白质不但含量高，而且质量也佳，人体消化吸收率可达96%。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>叉烧炒蛋</h1>
+        &nbsp;<br />
+<br />
+食谱原料：
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 鸡蛋1个，叉烧肉15克，葱10克，香菜末少许，植物油、精盐、味精各适量，胡椒粉少许。</div>
+<div>制作方法：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 1、将叉烧肉切成黄豆粒大小的丁;葱切成葱花;鸡蛋打入碗内，加入精盐、味精、胡椒粉搅匀；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 2、锅置火上，放少许油，将叉烧肉略爆炒一下，然后将叉烧肉、葱花倒入鸡蛋中拌匀；</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 3、将油放入锅内，油热，将鸡蛋汁、叉烧肉丁一齐倾入锅内，用慢火炒，炒至两面呈金黄色时出锅，撒上香菜末即成。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_41">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 41;" onclick="nativeNewBirthclubByWeek('6');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('6');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('63.html');return false;">上一篇：番茄土豆汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('829.html');return false;">下一篇：西芹牛柳</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("叉烧炒蛋 叉烧炒蛋营养丰富，是供给优质蛋白质、维生素及矿物质的良好来源。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

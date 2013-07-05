@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>早点睡觉</h1>
+        准妈妈会经常感到疲劳，因此充足的睡眠是十分必要的。准妈妈每天睡眠时间最好保证8－9小时，而且应该早睡早起。如果有条件中午应该增加1小时左右的睡眠时间，才能保证胎儿更好地生长发育。<br />
+<br />
+孕晚期因为腹部增大，很多妈妈睡眠很浅，半夜经常起身，尿频也会折腾得孕妈妈睡不得好觉，翻身等动作也变得大费周折，建议妈妈们早点上床，调整情绪，可以多设想一些未来幸福的三口生活，促进自己早一些入睡，休息好的妈妈，更能促进胎儿的成长发育。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_235">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 235;" onclick="nativeNewBirthclubByWeek('34');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('34');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('427.html');return false;">上一篇：训练拉梅兹呼吸法</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('434.html');return false;">下一篇：准备第九次产检</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("早点睡觉 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

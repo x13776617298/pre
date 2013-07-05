@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>炝肚丝</h1>
+        <br />
+<br />
+食谱原料：<br />
+熟猪肚200克,胡萝卜10克,香菜10克,水发冬菇10克,精盐,味精,花椒油姜各适量。<br />
+制作方法：<br />
+1、将熟猪肚切成丝。<br />
+2、将胡萝卜洗净，切成丝。将水发冬菇洗净，切成丝。把香菜洗净，切成2厘米长的段。将姜洗净，用刀拍散，切末。<br />
+3、将肚丝，胡萝卜丝、冬菇丝、香菜段放在沸水锅中烫一下，捞出，控净水，放入大碗内，加姜末、精盐，味精、花椒油拌匀，装盘即行。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_254">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 254;" onclick="nativeNewBirthclubByWeek('37');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('37');return false;">查看孕10月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('942.html');return false;">上一篇：茭白炒鸡蛋</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1032.html');return false;">下一篇：海带炖排骨</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("炝肚丝 此菜清淡鲜香，含有蛋白质、脂肪、钙、磷、铁和维生素等多种营养成分，适于孕妇食用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

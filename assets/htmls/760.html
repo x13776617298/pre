@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>学看懂B超单</h1>
+        <div style="text-align: left; line-height: 150%; text-indent: 21pt" align="left"><span>通过B超看到胎宝宝在肚子里的景象时一定会非常高兴，她（他）在踢腿、吃小手、做鬼脸儿，此时除了关注宝宝的这些小动作之外你一定还会关心宝宝在子宫里生活的好不好。如果您的身体在孕早期没有出现异常情况，那么B超单对您来说还算陌生。不过我们可以先来预习一下未来您会遇到的各种专业名词或英文缩写到底是什么意思。</span></div>
+<div style="text-align: left; line-height: 150%" align="left"><span>双顶径（BPD）：也叫胎头大横径，指胎儿头部从左到右最长部分的距离，以此为基础来推定胎儿的体重和发育状态。</span></div>
+<div style="text-align: left; line-height: 150%" align="left"><span>股骨长（FL）：也叫大腿骨长，指大腿的长度，这是胎儿身体中最长的一部分的数值。用于和BPD一起来推算胎儿的体重。</span></div>
+<div style="text-align: left; line-height: 150%" align="left"><span>肱骨长（HL）：也叫上臂骨。</span></div>
+<div style="text-align: left; line-height: 150%" align="left"><span>腹围（AC）：也叫腹部周长，指胎儿肚子一周的长度，是推算胎儿大小的指标之一。</span></div>
+<div style="text-align: left; line-height: 150%" align="left"><span>头围（HC）：也叫胎头周长，是计测头的一周的长度数值。是推算胎儿大小的指标之一。</span></div>
+<span>枕额径：也叫前后径，指胎儿鼻根至枕骨隆突的距离。也是计算胎儿头从前到后最长的部分，以这个数据来判断胎儿发育情况和孕周。</span>    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('B超单');return false;"><img src="discuz_icon.png">B超单</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('双顶径');return false;"><img src="discuz_icon.png">双顶径</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('腹围');return false;"><img src="discuz_icon.png">腹围</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('头围');return false;"><img src="discuz_icon.png">头围</a></dd>
+                                    <dt id="_1_3_75">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 75;" onclick="nativeNewBirthclubByWeek('11');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('11');return false;">查看孕3月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('649.html');return false;">上一篇：陪伴准妈妈一同去产检</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('645.html');return false;">下一篇：对宝宝形成良好的触觉刺激</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("学看懂B超单 通过B超看到胎宝宝在肚子里的景象时一定会非常高兴，她（他）在踢腿、吃小手、做鬼脸儿。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

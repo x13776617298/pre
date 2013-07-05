@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>哺乳时注意乳头卫生</h1>
+        <font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新妈妈每次哺乳前，应洗净双手，然后用温开水擦净乳头，挤掉几滴奶，以冲掉乳腺管内可能存在的细菌。哺乳时，应让宝宝含住乳头周围的部分乳晕，以减少对乳头皮肤的摩擦。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 宝宝吸吮乳头的时间不能超过20分钟，否则乳头皮肤过度浸润，容易发生皲裂。切忌让宝宝含着乳头入睡，以免乳头浸软、皲裂而有细菌侵入。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 倘若乳头皲裂或破皮，且伴有疼痛和发红，应减少哺乳次数或停止直接喂哺，将乳汁用吸乳器吸出或挤出，装入奶瓶喂哺。乳头皲裂可涂抹适量鱼肝油剂，在下次哺乳或挤奶前擦掉即可。<br />
+</font>    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('哺乳');return false;"><img src="discuz_icon.png">哺乳</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('乳头皲裂');return false;"><img src="discuz_icon.png">乳头皲裂</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('乳头');return false;"><img src="discuz_icon.png">乳头</a></dd>
+                                    <dt id="_1_12_1">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 1;" onclick="nativeNewBirthclubByWeek('1');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('1');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1150.html');return false;">上一篇：哺乳期的饮食</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1152.html');return false;">下一篇：解决产后奶水不足的6个绝招</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("哺乳时注意乳头卫生 新妈妈每次哺乳前，应洗净双手，然后用温开水擦净乳头，挤掉几滴奶，以冲掉乳腺管内可能存在的细菌");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

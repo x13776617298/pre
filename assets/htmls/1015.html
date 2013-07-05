@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>香蕉奶茶蛋糕</h1>
+        <br />
+<div>食谱原料：</div>
+<div>小麦面粉（特制） 100克，香蕉 1根，泡打粉 2克，鸡蛋 1个，枸杞子适量，红糖 50克，色拉油 50克。</div>
+<div>制作方法：</div>
+<div>1、将鸡蛋打散。</div>
+<div>2、放入50克红糖，搅拌均匀。</div>
+<div>3、倒入50克色拉油，搅拌均匀。</div>
+<div>4、奶茶粉1袋用50克温水冲开、搅匀，倒入混合溶液，并搅拌均匀。</div>
+<div>5、在混合溶液中加入面粉和泡打粉，搅匀。</div>
+<div>6、香蕉用勺子搅拌成泥，加入混合物。</div>
+<div>7、将所有材料搅拌均匀。</div>
+<div>8、枸杞洗净，撒在混合物表面。</div>
+<div>9、放入微波炉，中高火加热20分钟。</div>
+<div>10、再用高火加热5分钟即可。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_206">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 206;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1020.html');return false;">上一篇：花生蹄花汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('930.html');return false;">下一篇：青菜肝末</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("香蕉奶茶蛋糕 这个小甜点不仅美味可口，促进孕妇食欲，增强营养，还能防止孕期便秘。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

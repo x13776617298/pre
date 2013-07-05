@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>奇妙的胎动</h1>
+        <div style="text-indent: 21pt"><span>如果你是初次怀孕，那么你大概会在妊娠18~20周左右开始感觉到胎动。胎动刚开始会比较轻柔，不是很明显，随后宝宝的动作开始变得越来越强，也越来越有规律。在你忙的时候可能不太会感受到宝宝在动，而当你放松下来，正巧宝宝在活动，你就能明显地感觉到了。</span></div>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 大约在妊娠20~24周，宝宝的胎动会变得频繁起来，而且动作幅度比较大。到了28周左右，宝宝的生活节奏渐渐规律，会有睡眠和觉醒的周期。宝宝醒着时，胎动就多，胎动的幅度也大。宝宝睡觉时，就显得很安静，即便有胎动，动作也很小。有的产科医生会建议你从28周开始每天数胎动，作为监控宝宝健康状况的一个手段。</span>    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('胎动');return false;"><img src="discuz_icon.png">胎动</a></dd>
+                                    <dt id="_1_3_138">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 138;" onclick="nativeNewBirthclubByWeek('20');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('20');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('700.html');return false;">上一篇：和妻子去做一次短途旅行</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('702.html');return false;">下一篇：训练宝宝反应的宫内运动训练</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("奇妙的胎动 如果你是初次怀孕，那么你大概会在妊娠18~20周左右开始感觉到胎动。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

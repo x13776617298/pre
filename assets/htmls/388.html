@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>孕晚期产检</h1>
+        孕晚期的产检非常必要，次数也相应增多，孕晚期的产检基本为每两周一次产检，这是为了保证妈妈和胎宝宝在生产前都拥有健康的身体和做好临产的充分准备。晚期主要监测胎儿在宫内的这种状态，无创性的检查主要是B超和胎心监护，了解它有没有脐带绕颈，或者羊水多了或者少了，动脉血流等等。但最重要的检查是妈妈对胎动自己的感觉，符合他的规律就行了，不要说别人动了多少次，我的胎儿动了多少次是不是有问题，这个是因人而异的。胎儿一直保持在稳定的胎动状态，对他来说就是正常的。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_3_206">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 206;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('385.html');return false;">上一篇：保持好心情</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('390.html');return false;">下一篇：监测胎动</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("孕晚期产检 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

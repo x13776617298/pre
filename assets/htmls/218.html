@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>B超单详解</h1>
+        B超单图<br />
+<br />
+双顶径：头从左到右最长部分<br />
+<br />
+枕额径：胎儿鼻根至枕骨隆突的距离<br />
+<br />
+头围：环头一周的长度<br />
+<br />
+股骨长：大腿的长度<br />
+<br />
+腹围：肚子一周的长度<br />
+<br />
+1.孕早期的B超检查：B超检查也是确诊怀孕的重要依据，提示宫内or宫外孕，孕囊大小，胎芽大小等胎儿发育情况，有无胎心搏动及卵黄囊等。<br />
+<br />
+2.孕中期的B超检查：孕中期的三维彩超检查非常重要，可以清楚的给宝宝拍照录像，三维彩超能检查面部、神经系统、消化系统、泌尿系统等畸形。<br />
+<br />
+彩超的检测结果不但取决于彩超的机器性能，更与检查医师的水平有关。<br />
+<br />
+有些功能性异常，如听力障碍、智力异常通过B超并不能发现。<br />
+<br />
+3.孕晚期的B超检查：<br />
+<br />
+胎盘位置：诊断是否前置胎盘。<br />
+<br />
+胎盘成熟度、羊水AFI的多少：决定是否需要终止妊娠。<br />
+<br />
+胎儿的双顶径、头围、股骨径：估计胎儿大小，是否可以顺产，从而决定顺或剖的生产方式。<br />
+<br />
+胎儿胎位：诊断是否存在脐带绕颈等异常。<br />
+<br />
+医生提示：孕妈咪们不要过于紧张数据，特别是中后期。由于胎宝宝在妈咪肚内活动较大，胎儿体位的不同，还有不同医生的操作差异，都会引起数字误差，有时甚至波动幅度会很大，在30周以后，允许有上、下两周的误差，所以当孕妈咪们看到报告结果和正常值有出入时，不必过于紧张。复查后确实有问题，再找专家咨询，寻求解决方案。<br />    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('B超单');return false;"><img src="discuz_icon.png">B超单</a></dd>
+                                </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("B超单详解 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

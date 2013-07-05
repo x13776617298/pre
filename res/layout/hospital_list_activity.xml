@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_home_background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/title_bg" >
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dip"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_center"
+            style="@style/title_comm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="选择医院" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transpranet"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="none"
+        android:visibility="visible" >
+    </ListView>
+
+    <include layout="@layout/loading_info" />
+
+</LinearLayout>

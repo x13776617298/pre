@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>牛奶西米露</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; 牛奶、西米、香蕉适量，白砂糖少许。</div>
+<div>制作方法：</div>
+<div>　　1、西米用冷水浸泡1小时，将香蕉打成泥；</div>
+<div>　　2、将西米连同浸泡水一起煮沸，至西米成透明状，加入牛奶和香蕉糊稍煮即可。</div>
+<div>&nbsp;</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_210">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 210;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('985.html');return false;">上一篇：鸡汤小馄饨</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('918.html');return false;">下一篇：鲤鱼茯苓汤</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("牛奶西米露 牛奶草莓西米露是简单营养、促进食欲的饮品，可以帮助孕妈妈喝出嫩白好皮肤哦。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

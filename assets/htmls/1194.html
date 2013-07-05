@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>买验孕棒</h1>
+        <p><font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 备孕的女性，可在家常备验孕棒、测孕试纸等，这会在第一时间便于你自测是否已怀孕。在一般情况下，早早孕试纸检测结果有两种：将尿液滴在试纸上的检测孔中，如在试纸的对照区出现一条有色带(有的试纸显红色，有的试纸显蓝色)，表示未受孕；反之，如在检测区出现明显色带，则表示阳性，说明已经怀孕。</font></p>
+<p><font color="#333333">具体方法如下：</font></p>
+<p><font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 取晨尿的中段尿(就是早晨起来第一次小便过程中的中段尿液)来测试。这样准确度才比较高的。持试条将有箭头标志的一端浸入装有尿液的容器中，千万不要浸过标志线(就是箭头的第一条黑线)，约有三秒钟后取出放平，五分钟内观察结果，记住在15分钟后观察的结果不算的。 然后对照以下看结果：</font></p>
+<p><font color="#333333">阴性：只出现对照线(就是最上面的那条红线)，表示没有怀孕；</font></p>
+<p><font color="#333333">阳性：对照线、检测线(就是对照线再下来的那一条红线)，检测线显色清晰，表示已经怀孕;</font></p>
+<p><font color="#333333">弱阳性：检测线显色弱于对照线，表示可能怀孕，请隔天再用晨尿重测;</font></p>
+<p><font color="#333333">强阳性：检测线显色强于对照线，表示已经怀孕一段时间了。</font></p>    </article>
+    <dl class="other link">
+                        <dt id="_2_2_2">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 2;" onclick="nativeNewBirthclubByWeek('1');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('1');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1193.html');return false;">上一篇：补充叶酸</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1195.html');return false;">下一篇：常备体温计和排卵试纸</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("买验孕棒 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

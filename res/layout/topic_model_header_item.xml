@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topic_list_header_body_true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/topic_content_bg_color"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="10dip" >
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/layout_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/topic_user_avator"
+                android:layout_width="44.0dip"
+                android:layout_height="44.0dip"
+                android:background="@drawable/img_head_default"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/mixed_feed_author_photo_overlay"
+                android:layout_width="44.0dip"
+                android:layout_height="44.0dip"
+                android:background="@drawable/img_head_kuang"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingBottom="3dip"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dip" >
+
+            <TextView
+                android:id="@+id/topic_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="昵称昵称"
+                android:textColor="@color/topic_user_name_color"
+                android:textSize="@dimen/topic_username_text_size" />
+
+            <ImageView
+                android:id="@+id/ic_level"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:contentDescription="@string/app_name" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/topic_user_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ic_level"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/ic_level"
+                android:text="LV3"
+                android:textColor="@color/topic_level_color"
+                android:textSize="@dimen/topic_level_text_size" />
+
+            <TextView
+                android:id="@+id/topic_user_floor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="X楼"
+                android:textColor="@color/topic_floor_color"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/topic_lou_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_content"
+        android:lineSpacingExtra="@dimen/topic_content_line_spacing"
+        android:lineSpacingMultiplier="1"
+        android:paddingTop="5dip"
+        android:text="回复1楼天涯妈妈的内容:"
+        android:textColor="@color/topic_content_floor_color"
+        android:textSize="@dimen/topic_content_floor_text_size" />
+
+</RelativeLayout>

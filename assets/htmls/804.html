@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>莼菜白玉番茄汤</h1>
+        <br />
+<br />
+食谱原料：<br />
+莼菜、豆腐、番茄、香菜、盐、鸡精、胡椒粉、淀粉、香油、香葱。<br />
+制作方法：<br />
+1、将莼菜放入碗底，香菜切段放入碗中，葱切成菱形小块，豆腐切块，坐锅点火倒入水，加少许盐，将豆腐放入焯一下取出；<br />
+2、坐锅点火倒入油，放入葱花煸香，倒入清水，加盐、鸡精、胡椒粉调味，放入豆腐，水淀粉勾芡，烧好后浇在装有莼菜的碗中即可。    </article>
+    <dl class="other link">
+                        <dt id="_1_5_22">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 22;" onclick="nativeNewBirthclubByWeek('4');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('4');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('815.html');return false;">下一篇：南海金莲</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("莼菜白玉番茄汤 这道菜三色艳美，口感咸鲜，可以增加准妈妈的食欲哦");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

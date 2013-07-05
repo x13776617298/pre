@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message_operate">
+        <item>发送消息</item>
+        <item>删除消息</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="notify_alerm_items">
+        <item>10分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>2小时</item>
+    </string-array>
+    <string-array name="notify_alerm_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="notify_time_items">
+        <item>全天提醒</item>
+        <item>早9点到晚10点</item>
+        <item>早8点到晚10点</item>
+        <item>早7点到晚10点</item>
+    </string-array>
+    <string-array name="notify_time_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="menu_names">
+        <item>孕期知识</item>
+        <item>美食推荐</item>
+        <item>小工具</item>
+        <item>应用推荐</item>
+        <item>重新输入邀请码|解除绑定</item>
+        <item>重新选择身份</item>
+    </string-array>
+    <string-array name="menu_left_img">
+        <item>@drawable/menu_img_knowledge</item>
+        <item>@drawable/menu_img_recipe</item>
+        <item>@drawable/menu_img_setting</item>
+        <item>@drawable/menu_img_app</item>
+    </string-array>
+
+    <!-- 首页grid图标  孕期 -->
+    <integer-array name="home_grid_drawable_ids">
+        <item>@drawable/ic_grid_knowledge</item>
+        <item>@drawable/ic_grid_takecare</item>
+        <item>@drawable/ic_grid_food</item>
+        <item>@drawable/ic_grid_age</item>
+        <item>@drawable/ic_grid_hospital</item>
+        <item>@drawable/ic_grid_doctor</item>
+        <item>@drawable/ic_grid_babybox</item>
+        <item>@drawable/ic_grid_active</item>
+        <item>@drawable/ic_grid_tool</item>
+    </integer-array>
+    <!-- 首页grid图标  育儿 -->
+    <integer-array name="home_grid_drawable_ids_yuer">
+        <item>@drawable/ic_grid_knowledge</item>
+        <item>@drawable/ic_grid_takecare</item>
+        <item>@drawable/ic_grid_food</item>
+        <item>@drawable/ic_grid_age</item>
+        <item>@drawable/ic_grid_hospital</item>
+        <item>@drawable/ic_grid_doctor</item>
+        <item>@drawable/ic_grid_babybox</item>
+        <item>@drawable/ic_grid_active</item>
+        <item>@drawable/ic_grid_cd</item>
+    </integer-array>
+
+    <!-- 首页grid color -->
+    <integer-array name="home_grid_color_ids">
+        <item>@color/c_home_item_knowledge</item>
+        <item>@color/c_home_item_tip</item>
+        <item>@color/c_home_item_recipe</item>
+        <item>@color/c_home_item_cicle_age</item>
+        <item>@color/c_home_item_cicle_hospital</item>
+        <item>@color/c_home_item_expert</item>
+        <item>@color/c_home_item_babytree_box</item>
+        <item>@color/c_home_item_active</item>
+        <item>@color/c_home_item_tools</item>
+        <item>@color/c_home_item_tools</item>
+    </integer-array>
+
+    <!-- 首页grid title 孕期 -->
+    <integer-array name="home_grid_titles">
+        <item>@string/s_home_item_knowledge</item>
+        <item>@string/s_home_item_tip</item>
+        <item>@string/s_home_item_recipe</item>
+        <item>@string/s_home_item_cicle_age</item>
+        <item>@string/s_home_item_cicle_hospital</item>
+        <item>@string/s_home_item_expert</item>
+        <item>@string/s_home_item_babytree_box</item>
+        <item>@string/s_home_item_active</item>
+        <item>@string/s_home_item_tools</item>
+    </integer-array>
+    <!-- 首页grid title 育儿 -->
+    <integer-array name="home_grid_titles_yuer">
+        <item>@string/s_home_item_knowledge</item>
+        <item>@string/s_home_item_tip</item>
+        <item>@string/s_home_item_recipe_yuer</item>
+        <item>@string/s_home_item_cicle_age_yuer</item>
+        <item>@string/s_home_item_cicle_hospital</item>
+        <item>@string/s_home_item_expert</item>
+        <item>@string/s_home_item_babytree_box</item>
+        <item>@string/s_home_item_active</item>
+        <item>@string/s_home_item_cd</item>
+    </integer-array>
+
+    <!-- 首页左侧菜单导航-title 孕期 -->
+    <string-array name="home_slide_menu_mommy_titles">
+        <item>首页</item>
+        <item>注册登录</item>
+        <item>切换到育儿版本</item>
+        <item>设置</item>
+    </string-array>
+
+    <!-- 首页左侧菜单导航-title 育儿 -->
+    <string-array name="home_slide_menu_mommy_titles_yuer">
+        <item>首页</item>
+        <item>注册登录</item>
+        <item>设置</item>
+    </string-array>
+
+    <!-- 首页左侧菜单导航-icon 孕期 -->
+    <integer-array name="home_slide_menu_mommy_icons">
+        <item>@drawable/slide_menu_home</item>
+        <item>@drawable/slide_menu_picture</item>
+        <item>@drawable/slide_menu_qiehuan</item>
+        <item>@drawable/slide_menu_set</item>
+    </integer-array>
+
+    <!-- 首页左侧菜单导航-icon 育儿 -->
+    <integer-array name="home_slide_menu_mommy_icons_yuer">
+        <item>@drawable/slide_menu_home</item>
+        <item>@drawable/slide_menu_picture</item>
+        <item>@drawable/slide_menu_set</item>
+    </integer-array>
+
+</resources>

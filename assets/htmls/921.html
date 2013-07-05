@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>生菜包肉</h1>
+        <br />
+食谱原料：
+<div>猪里脊肉、生菜、胡椒粉（黑）1勺、植物油、烤肉酱。</div>
+<div>制作方法：</div>
+<div>1、将里脊肉切成5mm厚的片，放入容器中，加入烤肉酱，黑胡椒粉，用手抓匀后，再淋入适量油，抓匀，腌制两小时以上；</div>
+<div>2、将腌好的肉放在烤架上，底下接铺好锡纸的烤盘。烤箱200度预热好，送入烤箱，烤3-4分钟，变色即好；</div>
+<div>3、用洗净沥干的生菜包裹烤好的肉片食用即可。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_94">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 94;" onclick="nativeNewBirthclubByWeek('14');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('14');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1040.html');return false;">上一篇：鸡鸭血汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('854.html');return false;">下一篇：蕃茄鸡肉酱意大利面</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("生菜包肉 猪里脊肉含丰富的优质蛋白，脂肪和胆固醇含量较少，是准妈妈补充营养、保持身材的绝佳选择。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

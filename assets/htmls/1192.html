@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>孕期运动注意事项</h1>
+        <p><font color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 为准妈妈推荐的传统运动是散步、伸展运动或瑜珈、游泳。如果孕前没有坚持锻炼的习惯，或者很长时间没有锻炼了，应该要循序渐进进行运动。你可以从每周1-2次，每次5-10分钟开始逐渐增加运动次数和持续时间，前提是能在自己身体可以应付得来的情况下。不管选择哪种运动，坚持是关键。另外，给准妈妈几点关于孕期锻炼的建议作为参考：<br />
+1.&nbsp;选择喜欢做的运动，能让你更容易坚持。<br />
+2.&nbsp;每天专门安排一段时间用于锻炼。<br />
+3.&nbsp;运动时选择让你舒服的衣服。<br />
+4.&nbsp;妊娠3个月以后，尽量不选择需要平躺的运动姿势，因为这个姿势可能会让你感觉不太舒服，还会影响血液流向子宫。<br />
+5.&nbsp;应该注意运动前的准备活动及运动后的放松活动。<br />
+6.&nbsp;从地板起身时动作要慢。<br />
+7.&nbsp;锻炼前后和锻炼期间要及时补水。<br />
+8.&nbsp;锻炼应该达到的效果是感觉精力充沛而不是疲惫，所以请听从你身体的声音。<br />
+9.&nbsp;别忘了运动前听听医生针对你自身情况给出的建议。</font></p>
+<p>&nbsp;</p>    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('锻炼');return false;"><img src="discuz_icon.png">锻炼</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('运动');return false;"><img src="discuz_icon.png">运动</a></dd>
+                            <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('孕期');return false;"><img src="discuz_icon.png">孕期</a></dd>
+                                    <dt id="_1_12_1">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 1;" onclick="nativeNewBirthclubByWeek('1');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('1');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1123.html');return false;">上一篇：分娩时刻之产程延长</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1125.html');return false;">下一篇：关于多胎分娩</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("孕期运动注意事项 给准妈妈几点关于孕期锻炼的建议作为参考");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

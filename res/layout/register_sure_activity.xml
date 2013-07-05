@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regist_sure_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_home_background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/title_bg"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:background="@drawable/btn_back" />
+
+        <RadioGroup
+            android:id="@+id/rg_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <RadioButton
+                android:id="@+id/rb_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rbtn_left"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/new_user"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/rb_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rbtn_right"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/old_user"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/btn_main_change"
+            android:text="@string/skip"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+    <!--
+    <include layout="@layout/regist_sure_first_item" />
+
+    <include layout="@layout/regist_sure_second_item" />
+    
+    <include layout="@layout/regist_sure_third_item" />
+    -->
+
+</LinearLayout>

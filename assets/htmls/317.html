@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>告诉亲人“我怀孕了”</h1>
+        将这个好消息告诉你的爱人吧，他一定会十分惊喜的，即将做父母的你们此刻的心情，是值得一生回忆的哦！当然也要告诉身边的家人亲人，一同分享这一份喜悦！<br />
+<br />
+另外，有些职场女性在怀孕初期并不愿意将怀孕的情况告知公司的同事与领导，其实这样并不利于胎儿健康的成长，因为有些妈妈的工作繁重，环境也较污染，甚至于置身在辐射的环境中，种种因素并不利于胎儿初期的发育，所以，告诉同事与领导，争取得到大家的理解与关心，才是对宝宝健康着想的理性选择。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_3_31">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 31;" onclick="nativeNewBirthclubByWeek('5');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('5');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('319.html');return false;">上一篇：补充叶酸</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('318.html');return false;">下一篇：保持好心情</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("告诉亲人“我怀孕了” ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

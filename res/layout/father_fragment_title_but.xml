@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.babytree.apps.biz.father.ui.FatherTitleButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="56dip"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/left_v_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/title_line_v" />
+
+    <ImageView
+        android:id="@+id/right_v_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/title_line_v" />
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="54dip"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/right"
+        android:layout_toRightOf="@+id/left"
+        android:background="@drawable/father_fragment_title_but_selector"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/button_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dialogue" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/button_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dip"
+		android:layout_marginRight="8dip"
+        android:scaleType="fitXY"/>
+
+    <View 
+    	android:id="@+id/layer_enabled"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="#222c2c2c"
+    	android:visibility="gone"
+    />
+</com.babytree.apps.biz.father.ui.FatherTitleButton>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>紫菜包饭</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>米饭适量，紫菜(干) 适量，鸡蛋 3个，黄瓜 1根，香肠、食盐、香油少许。</div>
+<div>制作方法：</div>
+<div>1、温热米饭中加入少许盐调味，一点点香油拌匀备用。</div>
+<div>2、鸡蛋3个磕入碗中打散，点上一点点盐。煎锅烧热，倒入适量蛋液，小火摊成蛋饼。</div>
+<div>3、见蛋液凝固后，翻面摊熟，取出放凉备用。</div>
+<div>4、香肠切成细条，蛋饼切条，黄瓜用盐腌好备用。</div>
+<div>5、取一片紫菜，放到帘子上，码上适量的米饭，不要太多，以免卷不起来。</div>
+<div>6、在米饭上码上香肠、蛋皮、黄瓜，如果喜欢可以放入2根香肠。</div>
+<div>7、把紫菜卷起，卷紧。</div>
+<div>8、用帘子卷紧紫菜卷，并且塑成方形的。</div>
+<div>9、建议做好后尽快食用。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_178">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 178;" onclick="nativeNewBirthclubByWeek('26');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('26');return false;">查看孕7月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('1000.html');return false;">上一篇：核桃明珠</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('910.html');return false;">下一篇：意大利奶酪沙拉</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("紫菜包饭 紫菜含丰富的碘质，碘是甲状腺素所需的基本元素，对生长发育及新陈代谢非常重要。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

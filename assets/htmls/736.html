@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>开始给宝宝列购物清单</h1>
+        <div style="text-indent: 21pt"><span>再过不久宝宝就要出生啦，准妈妈不妨利用这段时间列一个清单为宝宝开始购物，省得最后两个月要挺着大肚子四处奔波。</span></div>
+<div style="text-indent: 21pt"><span>小宝宝出生后需要很多东西，奶瓶、奶嘴、尿布、小衣服、小杯子、洗浴用品、护肤品、玩具、婴儿推车&hellip;&hellip;你也许很难一下子把所有物品都想全了。不如列一个清单，想起来一项就随时添上。这样的话，当你去购物时收获会更大。而且，这个清单还能帮你避免一时兴起买很多其实用不着的东西。</span></div>
+<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 另外，如果你亲戚朋友家里有大一点儿的宝宝，还可以问问他们有什么东西能转送给你。如果刚好是你清单里需要的，就可以在这一项前面打个勾并在后面标注&ldquo;向某某索取&rdquo;啦！</span></p>    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('购物');return false;"><img src="discuz_icon.png">购物</a></dd>
+                                    <dt id="_1_3_206">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 206;" onclick="nativeNewBirthclubByWeek('30');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('30');return false;">查看孕8月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('647.html');return false;">上一篇：宝宝双眼可以开合，能…</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('739.html');return false;">下一篇：做好孕期家庭财务计划</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("开始给宝宝列购物清单 再过不久宝宝就要出生啦，准妈妈不妨利用这段时间列一个清单为宝宝开始购物。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

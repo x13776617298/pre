@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>与亲朋好友分享您的好消息</h1>
+        <p class="MsoNormal" style="text-indent: 21pt; margin: 4.5pt 0cm;word-break: break-all; mso-char-indent-count: 2.0; mso-pagination: widow-orphan"><span><span>将怀孕的好消息告诉您的亲朋好友吧！让他们和您一同分享这份喜悦。新生命的到来会给家庭生活带来重大的改变，面对未知，怀揣忐忑是再正常不过的事，准妈妈需要用平常心来对待。</span></span><span><font size="3"><span lang="EN-US"><o:p></o:p></span></font></span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><span>对于职场女性来说，出于对工作的考虑，一些准妈妈可能会在怀孕初期选择&ldquo;隐孕&rdquo;，不愿将怀孕的情况告知公司同事和领导。但是，繁忙的工作以及工作环境中的一些污染和辐射源可能对胎宝宝的成长造成一些负面影响。为了你和宝宝的健康，建议你尽早把怀孕的消息告诉同事和领导，同时可以结合你的具体情况和家人商量是否需要暂时停止工作。</span></span></p>    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('隐孕');return false;"><img src="discuz_icon.png">隐孕</a></dd>
+                                    <dt id="_1_3_33">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 33;" onclick="nativeNewBirthclubByWeek('5');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('5');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('505.html');return false;">上一篇：关注准妈妈的情绪</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('507.html');return false;">下一篇：经常和胎宝宝对话</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("与亲朋好友分享您的好消息 怀孕期间生病后，应及时找医生诊治，在医生指导下安全用药。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

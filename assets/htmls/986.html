@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>青菜肉丝面</h1>
+        <br />
+&nbsp;食谱原料：
+<div>干面条、猪肉、青菜、鸡蛋、青椒葱，以及姜、蒜、干淀粉、生抽、蚝油、白胡椒粉、盐、料酒、糖；</div>
+<div>制作方法：</div>
+<div>1、猪肉切成肉丝,加干淀粉、生抽、蚝油、白胡椒粉、盐、料酒抓匀腌15分钟;肥肉放入锅中小火翻炒,留适量的油待用(多余的盛出来可炒菜)；</div>
+<div>2、加葱姜蒜瓣、腌好的肉丝翻炒;加老抽、盐、糖调味,继续翻炒;</div>
+<div>3、加适量清水,大火煮开后关小火;这个时候另起锅下清水面条,面条快熟时加青菜煮熟;最后用肉汤浇在面条里即可。</div>
+<div>&nbsp;</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_231">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 231;" onclick="nativeNewBirthclubByWeek('33');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('33');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('995.html');return false;">上一篇：扇贝蛋羹</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('931.html');return false;">下一篇：红烧海参</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("青菜肉丝面 这是很家常的一碗面，然而，各种营养都包含进去了，并且做法简单轻松搞定！");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

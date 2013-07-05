@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>手撕豇豆</h1>
+        <br />
+<br />
+&nbsp;<br />
+食谱原料：
+<div>豆角、猪肉馅、老抽、生抽、料酒、油、葱、姜盐、鸡精。</div>
+<div>制作方法：</div>
+<div>1、肉馅加少许老抽，生抽，料酒腌制20分钟待用。（腌制的时候，加入调料后要用筷子乱拌，不可顺一个方向搅拌上劲。那样炒出的肉糜就成了肉球，不散了）。</div>
+<div>2、豆角洗净从中间切一刀，下热水里焯熟。（水开后焯5分钟左右，可尝一下，彻底没有生味即可）</div>
+<div>3、捞出后立刻浸泡凉水。</div>
+<div>4、控干水份后，用手把豆角从中间撕成两半（我女儿帮撕的，她说从细的一断撕要比从粗的那断撕容易些）。</div>
+<div>5、锅里热油，下葱姜爆香，入腌制好的肉馅，立刻划散，不停的翻炒均匀（我忘记拍照片了），盛出备用。</div>
+<div>6、用锅内剩的底油，加蒜末爆香，放入豆角，翻炒2分钟。再放入炒好的肉馅，再调入盐，鸡精出锅即可。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_38">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 38;" onclick="nativeNewBirthclubByWeek('6');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('6');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('830.html');return false;">上一篇：二米面发糕</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('819.html');return false;">下一篇：羊肉泡馍</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("手撕豇豆 此菜色泽翠绿，味道鲜美，有理中益气、补肾健脾消渴、利尿除湿等功效。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

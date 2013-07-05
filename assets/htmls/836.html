@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>煎酿茄子</h1>
+        &nbsp;<br />
+<div>食谱原料：</div>
+<div>茄子400克、净鱼肉200克；干淀粉、湿淀粉、精盐、味精、白糖、料酒、胡椒面、蚝油、酱油、香油、熟猪油各适量。</div>
+<div>制作方法：</div>
+<div>1、将茄子洗净，去蒂，斜切成双联厚片。</div>
+<div>2、将鱼肉剁成泥，用精盐、味精稍腌，然后顺一个方向搅起劲，再加干淀粉、水拌匀，分别填入茄子双联片中间。</div>
+<div>3、中火热锅，下少许猪油，排入酿茄子，边煎边加适量猪油，煎至馅料是金黄色时，慢慢盛出。</div>
+<div>4、旺火热锅，加油少许，烧热，烹料酒，加水少许，加精盐、味精、胡椒面、蚝油，再加入酿茄子，盖盖，焖至软烂，用湿淀粉勾芡，淋香油即成。</div>    </article>
+    <dl class="other link">
+                        <dt id="_1_5_24">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 24;" onclick="nativeNewBirthclubByWeek('4');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('4');return false;">查看孕1月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('815.html');return false;">上一篇：南海金莲</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('812.html');return false;">下一篇：酸菜鱼丸</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("煎酿茄子 茄子含有多种矿物质，煎酿茄子味道多滋改善食欲。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

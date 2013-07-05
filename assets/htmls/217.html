@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>孕期B超四次为好</h1>
+        怀孕早期：<br />
+<br />
+在停经6周后，除了妇科常规检查之外，应通过B超确定宫内妊娠是否正常。例如宫腔内探查不到任何妊娠征象，而在子宫腔外探到异常的包块，结合其他的临床表现和实验室检查结果就可以考虑宫外孕可能。所以一般提倡于怀孕早期通过做B超明确是否是正常妊娠或双胎、葡萄胎等。<br />
+<br />
+怀孕中期：<br />
+<br />
+在16周左右需要再做一次B超，可以了解胎儿生长发育大体情况。<br />
+<br />
+在28周左右再复查一次B超，此时B超能够比较清晰的了解胎儿组织器官发育情况，从而了解胎儿是否存在畸形。如有畸形，此时中止妊娠(还需根据产科医生建议及相关政策)，是比较适宜的。<br />
+<br />
+怀孕晚期：<br />
+<br />
+在36周到预产期前做B超，可以明确羊水多少和胎盘的功能，以及胎儿有无脐带绕颈，如果有羊水过少，胎盘钙化，胎儿脐带绕颈，需结合临床再考虑是否继续妊娠。同时B超可以根据胎儿的头径、骨骼的测量估计胎儿的体重，明确胎儿的胎位，来预测孕妇是否能够自然分娩。<br />    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('B超');return false;"><img src="discuz_icon.png">B超</a></dd>
+                                </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("孕期B超四次为好 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

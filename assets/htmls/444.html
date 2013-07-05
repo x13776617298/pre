@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>保持好心情</h1>
+        产前焦虑的妈妈们越来越多，一方面担心自己能否顺利分娩，另一方面也担忧宝宝的健康与平安，每一个孕晚期的妈妈们都要满怀自信，相信自己可以顺利分娩下宝宝，也要相信自己的宝宝具备很强大的能量获得平安出世，有人说，能否顺利度过分娩这一关，首要的是取决于自信哦，保持积极向上的快乐心情，轻松面对，你会是一个伟大的妈妈。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_242">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 242;" onclick="nativeNewBirthclubByWeek('35');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('35');return false;">查看孕9月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('440.html');return false;">上一篇：了解分娩用力方法</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('442.html');return false;">下一篇：多吃膳食纤维食物</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("保持好心情 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

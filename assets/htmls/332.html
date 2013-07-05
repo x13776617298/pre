@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>计算预产期</h1>
+        用妈妈的末次月经月份减去3（或者加9）是宝宝生日的月份，妈妈末次月经的第一天日期加上7是宝宝生日的日期。那什么时候月份减3？什么时候月份加9？一年是12个月，如果加9后大于12，就用减3的方法计算；如果末次月经月份小于或等于3，就用加9的方法计算。<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_4_39">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 39;" onclick="nativeNewBirthclubByWeek('6');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('6');return false;">查看孕2月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('325.html');return false;">上一篇：服用孕期维生素</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('342.html');return false;">下一篇：补充叶酸</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("计算预产期 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>罗列新生儿物品清单</h1>
+        如果这是你第一次当爸爸、妈妈，在为新宝宝准备用品时，心里一定觉得很没底。从小衣服、奶瓶、尿布到玩具、婴儿推车，衣、食、住、行样样不能缺。现在，虽然离宝宝出生还有一段时间，但我们建议你及早下手，列一个宝宝需要物品的清单，开始购物，省得你最后两个月，还要挺着大肚子，四处奔波购物。<br />
+<br />
+以下是一些可以帮助你省时省力的建议：（1）询问家里刚生了新宝宝的亲朋好友。问问他们哪些是必不可少的东西，哪些是不必要的物品，还可以了解一下他们喜欢的品牌和产品型号。（2）利用网站产品目录和电话直购目录，查遗补漏。网站和直购目录一般根据产品种类，排列产品。这些信息，可以帮助你好好梳理一下，看看有没有漏掉重要的物品。（3）去商场实地考察，在网上购物。很多网上商城产品丰富，价钱比一般商店便宜，但是唯一不足的是网上购物看不见、摸不着。在你决定购买之前，可以先去商场实地考察一下你感兴趣的产品，尤其是小推车、婴儿床等大件产品。如果你对产品满意，再回到网上购买，这样就可以拿到最便宜的价钱了。<br />
+<br />
+无论你考虑得有多周全，肯定还是会有一两样遗漏的东西。别着急，宝宝出生后，你还可以让先生和家人帮助你继续购物。<br />
+<br />    </article>
+    <dl class="other link">
+                        <dt id="_2_3_150">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 150;" onclick="nativeNewBirthclubByWeek('22');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('22');return false;">查看孕6月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('311.html');return false;">上一篇：坚持乳房护理</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('320.html');return false;">下一篇：进行面部按摩</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("罗列新生儿物品清单 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

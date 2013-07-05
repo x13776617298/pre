@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>鸡鸭血汤</h1>
+        <br />
+<br />
+食谱原料：<br />
+鸡鸭血150克,内脂豆腐150克,鸡肝、鸡肫、鸡肠、葱姜末、黄酒、鲜汤、盐、味精、胡椒粉、青大蒜、麻油各适量。<br />
+制作方法：<br />
+1.鸡肝、肫、肠等洗净后切片，鸡鸭血、豆腐切小块焯水。<br />
+2.铁锅用葱姜炝锅后放入鸡肝、肫、肠等煸炒后喷入黄酒,加入鲜汤后放入鸡鸭血、豆腐、盐、味精、胡椒粉，烧开后撇去浮沫，装盆时撒上青大蒜段，滴上麻油即成。葱姜炝锅是为了减少汤汁中的腥味。<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_93">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 93;" onclick="nativeNewBirthclubByWeek('14');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('14');return false;">查看孕4月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('849.html');return false;">上一篇：草鱼豆腐</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('921.html');return false;">下一篇：生菜包肉</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("鸡鸭血汤 鸡鸭血能补血、解毒，最适宜贫血患者、孕妇和消化功能弱的人食用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

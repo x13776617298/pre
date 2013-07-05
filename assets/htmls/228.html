@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>孕中期出游最合适</h1>
+        怀孕四到五个月是孕妈咪相对出游更加的安全一些。因为在怀孕四到五个月之间的孕妈妈的精神相对来说是最好的，这时候的胎儿也是处于一个稳定成长的时期，而且这时候离预产期还有很长一段时间，没有出游遇到早产的顾虑；孕妈咪在怀孕的前三个月，大部分的孕妈妈都会有不同程度的恶心、呕吐等反应，胎盘附着也还不是特别牢固，旅游时候一个不注意都可能会发生流产；孕妇在六个月后也不适合进行长途旅游，因为这段时间的孕妇容易劳累，不慎跌倒还可能会有流产的危险。<br />    </article>
+    <dl class="other link">
+                <dt>看看大家是如何讨论</dt>
+                        <dd><a href="javascript:void(0);" onclick="nativeDiscuzByTag('出游');return false;"><img src="discuz_icon.png">出游</a></dd>
+                                </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("孕中期出游最合适 ");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

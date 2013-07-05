@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>素烧三元</h1>
+        <br />
+<br />
+食谱原料：<br />
+莴笋300克,胡萝卜200克,白萝卜200克,葱节15克,姜片15克,花生油30克,水淀粉、香油各少许。<br />
+制作方法：<br />
+1、将莴笋、胡萝卜、白萝卜去皮洗净，削成约1.5厘米见圆的球状，各15个，用开水焯透捞出。<br />
+2、炒锅上火，放油，烧热后放入葱节、姜片炸至金黄色时捞出，再加汤、莴笋、胡萝卜，见开后，文火煨熟，放盐，收汁，淋香油，即成。    </article>
+    <dl class="other link">
+                        <dt id="_1_5_190">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 190;" onclick="nativeNewBirthclubByWeek('28');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('28');return false;">查看孕7月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('952.html');return false;">上一篇：蜜枣苹果汁</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('1005.html');return false;">下一篇：莲子糯米粥</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("素烧三元 孕妇多吃此菜能强身健体，增加食欲，帮助消化，防治便秘，有利安胎。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

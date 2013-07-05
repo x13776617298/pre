@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=0.5, initial-scale=0.5, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>babytree</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('img').bind('clic',function () {
+        var url = $(this).attr('src');
+        nativePhotoBrowse(url);
+    });
+});
+</script>
+    <article>
+        <h1>什锦沙拉</h1>
+        <br />
+<br />
+食谱原料：<br />
+胡萝卜1根,马铃薯1个,小黄瓜2根,火腿3片,鸡蛋1个,胡椒粉、糖、盐、沙拉酱各适量。<br />
+制作方法：<br />
+1、胡萝卜洗净切粒。黄瓜洗净切粒，用少许盐腌10分钟。火腿切成细粒。鸡蛋煮熟，蛋白切粒，蛋黄压碎。<br />
+2、马铃薯洗净去皮切片，煮10分钟后捞出压成泥。<br />
+3、将马铃薯泥拌入胡萝卜粒、黄瓜粒、火腿粒及蛋白粒，加入其余调料拌匀，撒上碎蛋黄即成。<br />    </article>
+    <dl class="other link">
+                        <dt id="_1_5_114">更多链接</dt>
+            <dd><a href="javascript:void(0);var day = 114;" onclick="nativeNewBirthclubByWeek('17');return false;">查看<span id="rp_txt1"></span>妈妈交流圈</a></dd>
+            <dd><a href="javascript:void(0);" onclick="nativeAllBirthclubByWeek('17');return false;">查看孕5月所有精彩话题</a></dd>
+                <dd id="p_day"><a href="javascript:void(0);" onclick="nativeNavigate('860.html');return false;">上一篇：木耳肉丝蛋汤</a></dd>
+                <dd id="n_day"><a href="javascript:void(0);" onclick="nativeNavigate('943.html');return false;">下一篇：腊味煲仔饭</a></dd>
+            </dl>
+        <br />
+        <script language="javascript">
+            function replace_txt(str)
+            {
+                document.getElementById("rp_txt1").innerHTML = str;
+            }
+            function hidepn()
+            {
+                if(document.getElementById("p_day"))document.getElementById("p_day").style.display = "none";
+                if(document.getElementById("n_day"))document.getElementById("n_day").style.display = "none";
+            }
+            setTimeout(function (){
+                nativeSetTitle("什锦沙拉 什锦沙拉色美味鲜，酸甜可口，含丰富的维生素和蛋白质，特别适合食欲不振的准妈妈食用。");
+                },100);
+        </script>
+        <br /><br /><br /><br />
+    </body>
+</html>

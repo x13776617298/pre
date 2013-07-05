@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/layout_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/title_bg"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <Button
+                android:id="@+id/btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:background="@drawable/btn_back" />
+
+            <TextView
+                android:id="@+id/txt_center"
+                style="@style/title_comm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="关爱提醒" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <CheckBox
+                android:id="@+id/cb_remind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/remind_detail_important"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/web_remind"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

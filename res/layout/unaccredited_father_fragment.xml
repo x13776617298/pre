@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffe2e2e2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="164dp" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/unaccredited_bg"
+            android:scaleType="fitXY" />
+
+        <EditText
+            android:id="@+id/code_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/text_bg"
+            android:hint="@string/yaoq_code"
+            android:textColorHint="#62ccf3"
+            android:textSize="15sp" 
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/sure"
+            android:layout_width="68dp"
+            android:layout_height="28dp"
+            android:layout_below="@+id/code_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/unaccredited_father_but_selector"
+            android:text="@string/sure"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/today_tip"
+        android:textColor="#ff15a5db"
+        android:textSize="18sp" />
+
+    <include
+        android:id="@+id/father_tip"
+        layout="@layout/list_item_bar" />
+
+</LinearLayout>

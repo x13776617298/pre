@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.babytree.apps.pregnancy"
+    android:versionCode="72"
+    android:versionName="Dev" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <application
+        android:name="com.babytree.apps.pregnancy.ui.PregnancyApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/NoBackgroundTheme" >
+        <activity
+            android:name="com.babytree.apps.biz.welcome.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 爸爸版主页Activity -->
+        <activity
+            android:name="com.babytree.apps.biz.father.WelcomeFatherActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <!-- 发送消息 -->
+        <activity
+            android:name="com.babytree.apps.biz.father.SendMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <!-- 选择图片之后处理图片 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.activity.BabytreeModifyActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 新发帖 -->
+        <activity
+            android:name="com.babytree.apps.biz.topicpost.TopicPostNewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 新回帖 -->
+        <activity
+            android:name="com.babytree.apps.biz.topicreply.TopicReplyNewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- webView -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.activity.BabyTreeWebviewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 个人中心 -->
+        <!-- 孕期首页-新版 -->
+        <activity
+            android:name="com.babytree.apps.biz.home.HomePageActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 育儿首页-新版 -->
+        <activity
+            android:name="com.babytree.apps.biz.home.Y_HomePageActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 启动页 -->
+        <activity
+            android:name="com.babytree.apps.pregnancy.ui.LoaddingActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 计算结果 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.DateSelectResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 医院交流首页 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ForumTabHospitalActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 新交流首页 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ForumTabActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 准爸爸、准妈妈选择页 -->
+        <activity
+            android:name="com.babytree.apps.biz.father.RoleSelectActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 邀请准爸爸介绍 -->
+        <activity
+            android:name="com.babytree.apps.biz.father.FatherIntrActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 邀请准爸爸 -->
+        <activity
+            android:name="com.babytree.apps.biz.father.SendInviteActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 评论回复 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.CommentReplyActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 我的圈子 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ForumNewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 医院圈子 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ForumHospitalActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.ForumHospitalForEliteActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 我的圈子For同龄圈 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ForumActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.HospitalIntroductionActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.HospitalMotherListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.HospitalDoctorListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.DoctorTopicListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.HotGroupActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 全部圈子 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.GroupActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 签到 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.SignInActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 帖子页 -->
+        <activity
+            android:name="com.babytree.apps.biz.topic.TopicNewActivity"
+            android:configChanges="orientation|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <!-- 孕期每日知识列表页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.InformationActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 孕期每日知识(备孕期知识列表页) -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.InformationForTitleActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 孕期/育儿每日知识详情页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.InformationDetailActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+         <!-- 育儿美食厨房列表页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.Y_KitchenActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 孕期提醒列表页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.RemindActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 孕期提醒详情 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.RemindDetailActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册页 -->
+        <activity
+            android:name="com.babytree.apps.biz.user.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 登录页 -->
+        <activity
+            android:name="com.babytree.apps.biz.user.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 我发表的帖子和我回复的帖子 -->
+        <activity
+            android:name="com.babytree.apps.pregnancy.ui.PostReplyDiscuzListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 用户信息 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.UserinfoNewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 医院地图 -->
+        <activity
+            android:name="com.babytree.apps.pregnancy.ui.HospitalMapActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 地区选择 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.LocationActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 更多地区 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.LocationListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 城市选择 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.LocationDetailActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 照片查看 -->
+        <activity
+            android:name="com.babytree.apps.biz.photo.PhotoActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- Tag列表 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.TagTopicListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <!-- 所有该孕月的同龄贴 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.WeekTopicListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.biz.setting.NotifySettingActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 孕期/育儿每日厨房列表页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.KitchenActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 个人信息编辑 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.PersonalInfoEditActvity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 剩男剩女预测 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ForecastActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 输入孕期 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.CalculatorActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 搜索 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.SearchActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <!-- 应用推荐 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.UnionActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选择医院和选择省列表 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ChoiceHospitalActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.HospitalsInfoListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.AddHospitalActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.HospitalListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.babytree.apps.comm.ui.LocationDetail3Activity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.comm.ui.LocationList3Activity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.comm.ui.InviteActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.biz.user.RegisterSureActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.comm.ui.ReceiveLocationListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.comm.ui.ReceiveLocationDetailActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.comm.ui.ReceiveActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.biz.user.ChoiceShareActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.comm.ui.ModifyImageViewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.biz.notice.NoticeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.babytree.apps.comm.ui.AllTalkListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- Service -->
+        <service android:name="com.babytree.apps.biz.push.service.LocalService" >
+        </service>
+        <service android:name="com.babytree.apps.biz.push.service.ActivityService" >
+        </service>
+        <service android:name="com.babytree.apps.biz.push.service.MessageService" >
+        </service>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="4f62db59527015302d000010" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Dev" />
+        <!-- 以下为育儿相关 -->
+        <!-- 启动页 -->
+        <activity
+            android:name="com.babytree.apps.biz.welcome.Y_WelcomeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 计算结果 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.Y_DateSelectResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 米卡页 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.MikaActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 关于米卡页 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.AboutMikaActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 申请米卡页 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.ApplyFreeMikaActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 米卡用户点评页 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.MiKaCommentListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 米卡用户点评详情页 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.MikaListDetailActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 育儿每日知识列表页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.Y_KnowledgeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 育儿提醒列表页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.Y_RemindActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 育儿提醒详情页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.Y_RemindDetailActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 加孕气提示 -->
+        <activity
+            android:name="com.babytree.apps.biz.notify.AnimationNotifyActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+         <!--  孕期/育儿每日厨房详情页 -->
+        <activity
+            android:name="com.babytree.apps.biz.knowledge.KitchenDetailActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 设置宝宝生日 -->
+        <activity
+            android:name="com.babytree.apps.comm.ui.BirthdayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- Umeng 自动更新服务 -->
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:exported="true"
+            android:process=":DownloadingService" />
+        <!-- Umeng 用户反馈 -->
+        <activity
+            android:name="com.umeng.fb.ui.SendFeedback"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.umeng.fb.ui.FeedbackConversations"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.umeng.fb.ui.FeedbackConversation"
+            android:configChanges="keyboard" />
+        <!-- Umeng 分享 -->
+        <activity
+            android:name="com.umeng.socialize.view.CommentActivity"
+            android:configChanges="orientation|keyboard"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.umeng.socialize.view.CommentDetail"
+            android:configChanges="orientation|keyboard"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.umeng.socialize.view.CommentDetailNoMap"
+            android:configChanges="orientation|keyboard"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- QQ登录 -->
+        <activity
+            android:name="com.tencent.tauth.TAuthView"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="auth" />
+            </intent-filter>
+        </activity>
+
+        <!-- 百度定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.6" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <!-- 网络变化监听 -->
+        <receiver android:name="com.babytree.apps.biz.push.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <!-- 百度定位权限 -->
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 系统权限 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- 科大讯飞 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+</manifest>
